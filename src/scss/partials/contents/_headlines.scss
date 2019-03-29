@@ -1,0 +1,24 @@
+
+/* Head
+   ========================================================================== */
+.t-head {
+    @extend %helper-clear-margins;
+
+    margin: 0;
+
+    font-family: $font_primary;
+    line-height: 1;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.t-head--s1 {
+    font-size: 3rem;
+}
+
+.t-head--s2 {
+    font-size: 2rem;
+}
+
+
+

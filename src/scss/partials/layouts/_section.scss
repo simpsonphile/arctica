@@ -1,0 +1,62 @@
+.l-sec {
+  position: relative;
+}
+
+.l-sec__bg {
+  @extend %helper-absolute-center;
+
+  &::after {
+    @extend %helper-absolute-center;
+
+    content: "";
+  }
+}
+
+.l-sec__bg--gray-mask {
+  &::after {
+    background: rgba($color_gray, .5);
+  }
+}
+
+.l-sec__bg--dark-blue-mask {
+  &::after {
+    background: rgba($color_blue_dark, .5);
+  }
+}
+
+.l-sec__text {
+    margin: 0 auto 6rem auto;
+    max-width: 72rem;
+    padding: 0 1rem;
+
+    text-align: center;
+}
+
+.l-sec__sub-head {
+  margin: 1.5rem 0;
+}
+
+.l-sec--t-white {
+    color: $color_white;
+}
+
+.l-sec--t-gray {
+    color: $color_gray_2;
+}
+
+.l-sec--bg-white {
+    background: $color_white;
+}
+
+.l-sec--default {
+    padding: 6rem 0;
+}
+
+
+.l-quote {
+
+}
+
+.l-quote__quote {
+  margin-bottom: 4rem;
+}

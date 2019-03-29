@@ -1,0 +1,38 @@
+.c-separator {
+    align-items: center;
+    justify-content: center;
+    
+    display: flex;
+
+    margin: 1rem 0;
+
+    &::before,
+    &::after {
+        content: "";
+
+        height: 1px;
+        width: 27rem;
+        background: $color_gray_2;
+    }
+}
+
+.c-separator__circle {
+    display: block;
+
+    margin: 0 .5rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    border: 1px solid $color_gray_2;
+    border-radius: 50%;
+}
+
+.c-separator--white {
+    &::before,
+    &::after {
+        background: $color_white;
+    }
+
+    .c-separator__circle {
+        border: 1px solid $color_white;
+    }
+}

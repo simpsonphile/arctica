@@ -1,0 +1,39 @@
+.l-hero {
+  position: relative;
+  min-height: 100vh;
+}
+
+.l-hero__bg {
+  @extend %helper-absolute-center;
+
+  background-position: center;
+}
+
+.l-hero__inner {
+  align-items: center;
+
+  display: flex;
+
+  height: 100vh;
+  max-width: 100%;
+  padding: 0;
+}
+
+.l-hero__box {
+  background: rgba($color_blue_dark_2, .5);
+
+  width: 100%;
+  padding: 4rem 0 0 0;
+
+  text-align: center;
+}
+
+.l-hero__title {
+  margin: 0;
+}
+
+.l-hero__content {
+  margin: 2.5rem auto;
+}
+
+

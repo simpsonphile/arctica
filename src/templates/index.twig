@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %} {{ index.title }} {% endblock %}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        {% include "head/head-links.twig" %}
+    </head>
+
+    <body>
+        <div class="l-page">
+            {% include "partials/layouts/header.twig" %}
+            {% include "partials/layouts/hero.twig" %}
+            {% include "partials/layouts/section-fully-layered.twig" %}
+            {% include "partials/layouts/section-quote.twig" %}
+            {% include "partials/layouts/section-modern.twig" with {'boxes': index.boxes} %}
+            {% include "partials/layouts/footer.twig" %}
+        </div>
+
+        <script src="./static/js/app.js" defer></script>
+    </body>
+</html>

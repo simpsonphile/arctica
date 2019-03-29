@@ -1,0 +1,36 @@
+.o-ico-wrapper,
+.o-ico {
+    position: relative;
+    display: block;
+}
+
+.o-ico {
+    font-size: 0;
+
+    svg,
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.o-ico--social-sqr {
+    width: 2rem;
+    height: 2rem;
+}
+
+.o-ico--circle-big {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+/**
+ * Sizes
+ * xs
+ * xxs
+ * s
+ * m
+ * l
+ * xl
+ * xxl
+ */

@@ -1,0 +1,17 @@
+{
+    "index": {
+        "title": "Home",
+        "boxes": [
+            {
+                "title": "Some Brandingx",
+                "subtitle": "Creative Design",
+                "imgUrl": "./static/img/company1.jpg",
+                "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
+                "date": "<p>March 2013</p>",
+                "location": "Lorem Studio, NY",
+                "tool": "AI, PS Design"
+            }
+        ]
+            
+    }
+}

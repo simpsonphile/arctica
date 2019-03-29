@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Bold'), local('Lato-Bold'),
+        url('subset-Lato-Bold.woff2') format('woff2'),
+        url('subset-Lato-Bold.woff') format('woff'),
+        url('subset-Lato-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Light'), local('Lato-Light'),
+        url('subset-Lato-Light.woff2') format('woff2'),
+        url('subset-Lato-Light.woff') format('woff'),
+        url('subset-Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Regular'), local('Lato-Regular'),
+        url('subset-Lato-Regular.woff2') format('woff2'),
+        url('subset-Lato-Regular.woff') format('woff'),
+        url('subset-Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Italic'), local('Lato-Italic'),
+        url('subset-Lato-Italic.woff2') format('woff2'),
+        url('subset-Lato-Italic.woff') format('woff'),
+        url('subset-Lato-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Molle';
+    src: local('Molle'), local('Molle-Regular'),
+        url('subset-Molle-Regular.woff2') format('woff2'),
+        url('subset-Molle-Regular.woff') format('woff'),
+        url('subset-Molle-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}

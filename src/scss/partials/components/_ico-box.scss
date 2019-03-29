@@ -1,0 +1,33 @@
+.c-ico-box {
+  text-align: center;
+}
+
+.c-ico-box__ico-wrap {
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  
+  margin: 0 auto;
+  width: 10.5rem;
+  height: 10.5rem;
+  border-radius: 50%;
+
+  background: $color_blue_dark_2;
+}
+
+.c-ico-box__ico {
+
+}
+
+.c-ico-box__text {
+  margin: 2.5rem 0;
+}
+
+.c-ico-box__title {
+  margin: 2.5rem 0;
+}
+
+.c-ico-box__desc {
+
+}

@@ -1,0 +1,26 @@
+.l-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+
+    box-shadow: 1px 1px 1px 1px rgba($color_blue_dark_2, .33);
+    
+    background: $color_white;
+}
+
+.l-header__inner {
+    align-items: center;
+    justify-content: space-between;
+    
+    display: flex;
+
+    height: $header_height;
+}
+
+.l-header__nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+}

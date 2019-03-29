@@ -1,0 +1,35 @@
+<div class="l-sec l-sec--bg-white l-sec--t-gray l-sec--default">
+  <div class="l-inner">
+    <div class="l-sec__text">
+      <h2 class="t-head t-head--s1 u-paint-blue-dark-1 l-sec__main-head">MODERN AND CLEAN DESIGN</h2>
+
+      <h3 class="t-head t-head--s2 u-text-light l-sec__sub-head">Our Portfolio</h2>
+
+      <span class="c-separator">
+        <span class="c-separator__circle"></span>
+      </span>
+
+      <div class="t-content">
+        <p>
+          Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac inia in, elementum id enim. Vestibulum ac diam sit anet.
+        </p>
+      </div>
+    </div>
+
+    <div class="u-text-center">
+      <button class="c-btn c-btn--alt is-active">All</button>
+      <button class="c-btn c-btn--alt">Graphic</button>
+      <button class="c-btn c-btn--alt">Web</button>
+      <button class="c-btn c-btn--alt">Photography</button>
+    </div>
+
+    <div class="l-grid u-space-v-4 u-space-h-4">
+      {% set i=0 %}
+      {% for box in boxes %}
+      <div class="l-grid__item l-grid__item-3 u-non-grow">
+        {% include '../components/box.twig' with {'info': box } %}
+      </div><!--end l-grid__item -->
+      {% endfor %}
+    </div><!--end l-grid -->
+  </div>
+</div>

@@ -1,0 +1,51 @@
+.c-nav {
+    display: none;
+
+    width: 34rem;
+    height: 100vh;
+    padding: 6rem 5rem 6rem 4rem;
+    background: $color_blue_dark_2;
+
+    &.u-show {
+        display: block;
+    }
+}
+
+.c-nav__top {
+    align-items: center;
+    justify-content: space-between;
+
+    display: flex;
+
+    margin-bottom: 6rem;
+}
+
+.c-nav__logo {
+    margin-left: 1rem;
+}
+
+.c-nav__close {
+    color: $color_white;
+
+    span {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
+
+.c-nav__menu {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+.c-nav__el {
+    margin: 2rem 0;
+}
+
+.c-nav__el-link {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}

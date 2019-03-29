@@ -1,0 +1,13 @@
+.c-box {
+  position: relative;
+}
+
+.c-box__bg {
+  @extend %helper-absolute-center;
+
+  &::after {
+    @extend %helper-absolute-center;
+
+    background: rgba($color_gray, .5);
+  }
+}
