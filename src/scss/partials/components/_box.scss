@@ -1,13 +1,64 @@
 .c-box {
   position: relative;
+
+  width: 100%;
+  height: 20rem;
+}
+
+.c-box:hover,
+.c-box.is-active {
+
+  .c-box__content {
+    display: flex;
+  }
+
+  .c-box__bg {
+    &::after {
+      background: rgba($color_blue_dark_2, .5);
+    }
+  }
 }
 
 .c-box__bg {
   @extend %helper-absolute-center;
 
+  background-size: cover;
+  background-position: center;
+
   &::after {
     @extend %helper-absolute-center;
 
+    content: "";
+
     background: rgba($color_gray, .5);
   }
+}
+
+.c-box__content {
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  display: none;
+
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+
+.c-box__title {
+  margin: 0;
+
+  font-size: 2rem;
+  color: $color_white;
+}
+
+.c-box__subtitle {
+  margin: 0;
+
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: $color_white;
 }

@@ -9,4 +9,3 @@ showNav.addEventListener('click', () => {
 hideNav.addEventListener('click', () => {
   nav.classList.remove('u-show')
 })
-

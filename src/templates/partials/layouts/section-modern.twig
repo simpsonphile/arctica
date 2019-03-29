@@ -23,11 +23,17 @@
       <button class="c-btn c-btn--alt">Photography</button>
     </div>
 
-    <div class="l-grid u-space-v-4 u-space-h-4">
+    <div class="l-grid u-space-v-4 u-space-h-2">
       {% set i=0 %}
       {% for box in boxes %}
       <div class="l-grid__item l-grid__item-3 u-non-grow">
         {% include '../components/box.twig' with {'info': box } %}
+      </div><!--end l-grid__item -->
+      {% endfor %}
+
+      {% for box in boxes %}
+      <div class="l-grid__item l-grid__item-12">
+        {% include '../components/box-tooltip.twig' with {'info': box } %}
       </div><!--end l-grid__item -->
       {% endfor %}
     </div><!--end l-grid -->
