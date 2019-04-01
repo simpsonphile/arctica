@@ -1,0 +1,55 @@
+<div style="order:100;" class="l-grid__item l-grid__item-12 u-hidden js-tooltip-wrap" data-box-tooltip="{{i}}">
+  <div class="c-tooltip u-paint-white-1">
+    <span class="c-tooltip__bg"></span>
+    <div class="l-grid u-space-h-2 c-tooltip__box">
+      <div class="l-grid__item l-grid__item-6">
+        <div class="c-tooltip__img">
+          <img src="{{box.imgUrl}}" alt="{{box.title}}">
+        </div>
+      </div>
+
+      <div class="l-grid__item l-grid__item-6">
+        <div class="c-tooltip__content">
+          <h3 class="t-head t-head--s2 c-tooltip__title">{{box.title}}</h3>
+
+          <div class="t-content c-tooltip__txt u-text-light">{{box.desc}}</div>
+
+          <ul class="c-tooltip__list">
+            <li class="c-tooltip__list-el">
+              <div class="o-ico--xs c-tooltip__list-ico">
+                <img src="./static/img/ico-clock-2.png" alt="clock">
+              </div>
+
+              <div class="t-content t-content--primary c-tooltip__list-txt">
+                {{box.date}}
+              </div>
+            </li>
+
+            <li class="c-tooltip__list-el">
+              <div class="o-ico--xs c-tooltip__list-ico">
+                <img src="./static/img/ico-user.png" alt="clock">
+              </div>
+
+              <div class="t-content t-content--primary c-tooltip__list-txt">
+                {{box.location}}
+              </div>
+            </li>
+            <li class="c-tooltip__list-el">
+              <div class="o-ico--xs c-tooltip__list-ico">
+                <img src="./static/img/ico-tool.png" alt="clock">
+              </div>
+
+              <div class="t-content t-content--primary c-tooltip__list-txt">
+                {{box.tool}}
+              </div>
+            </li>
+          </ul>
+
+          <a href="#" class="c-btn c-btn--default">
+            <span class="c-btn__wrap">View in action</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

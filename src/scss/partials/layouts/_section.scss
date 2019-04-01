@@ -24,12 +24,20 @@
   }
 }
 
+.l-sec__row {
+  margin: 0 auto 6rem auto;
+}
+
 .l-sec__text {
     margin: 0 auto 6rem auto;
     max-width: 72rem;
     padding: 0 1rem;
 
     text-align: center;
+}
+
+.l-sec__main-head {
+  margin-bottom: 1.5rem;
 }
 
 .l-sec__sub-head {
@@ -46,6 +54,10 @@
 
 .l-sec--bg-white {
     background: $color_white;
+}
+
+.l-sec--bg-blue {
+    background: $color_blue;
 }
 
 .l-sec--default {

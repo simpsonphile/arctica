@@ -1,0 +1,34 @@
+<div style="order:100;" class="l-grid__item l-grid__item-12 js-tooltip-wrap u-hidden" data-box-tooltip="{{user.boxID}}">
+  <div class="c-tooltip c-tooltip--alt u-paint-white-1">
+    <span class="c-tooltip__bg"></span>
+    <div class="c-tooltip__box">
+      <div class="c-tooltip__content">
+        <h3 class="t-head t-head--s2 c-tooltip__title">{{user.name}}</h3>
+
+        <div class="t-content c-tooltip__txt u-text-light">{{user.desc}}</div>
+
+        <ul class="c-tooltip__list">
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-clock-2.png" alt="clock">
+            </div>
+
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              {{user.date}}
+            </div>
+          </li>
+
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-user.png" alt="clock">
+            </div>
+
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              {{user.location}}
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,8 +1,10 @@
-<div class="c-box" data-box-trigger="{{info.boxID}}">
-  <span class="c-box__bg" style="background-image:url({{info.imgUrl}});"></span>
-  
-  <div class="c-box__content">
-    <p class="c-box__title">{{info.title}}</p>
-    <p class="c-box__subtitle">{{info.subtitle}}</p>  
+<div style="order:{{i}};" data-box-cat="{{info.boxCat}}" class="l-grid__item l-grid__item-3 u-non-grow l-grid__item-4@t-m l-grid__item-6@m l-grid__item-12@m-s">
+  <div class="c-box js-box" data-box-tooltip-trigger="{{info.boxID}}">
+    <span class="c-box__bg" style="background-image:url({{info.imgUrl}});"></span>
+    
+    <div class="c-box__content">
+      <p class="c-box__title">{{info.title}}</p>
+      <p class="c-box__subtitle">{{info.subtitle}}</p>  
+    </div>
   </div>
 </div>

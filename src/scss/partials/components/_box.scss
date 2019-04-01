@@ -3,6 +3,8 @@
 
   width: 100%;
   height: 20rem;
+
+  cursor: pointer;
 }
 
 .c-box:hover,
@@ -17,6 +19,19 @@
       background: rgba($color_blue_dark_2, .5);
     }
   }
+}
+
+.c-box.is-active::after {
+  @include arrow('bottom', 2rem, $color_blue_dark_2);
+  @include arrow-position('bottom', 2rem);
+
+  content: "";
+
+  position: absolute;
+  left: 50%;
+  bottom: -2rem;
+  
+  transform: translateX(-50%);
 }
 
 .c-box__bg {

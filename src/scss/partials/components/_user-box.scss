@@ -1,0 +1,80 @@
+.c-user-box {
+  position: relative;
+
+  margin: 0 auto;
+  
+  text-align: center;
+}
+
+.c-user-box.is-active::after {
+  @include arrow('bottom', 2rem, $color_blue_dark_2);
+  @include arrow-position('bottom', 2rem);
+
+  content: "";
+
+  position: absolute;
+  left: 50%;
+  bottom: -2rem;
+  
+  transform: translateX(-50%);
+}
+
+.c-user-box__img-wrap {
+  position: relative;
+
+  margin-bottom: 2rem;
+  border: 2px solid $color_white;
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+
+  overflow: hidden;
+
+  &::after {
+    @extend %helper-absolute-center;
+    
+    content: "";
+
+    background: rgba($color_blue_dark_2, .5);
+  }
+
+  &:hover::before {
+    @extend %helper-absolute-center;
+    
+    content: "";
+
+    z-index: 2;
+
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+
+    background-image: url(../img/ico-arrow.png);
+    background-repeat: no-repeat;
+    background-color: $color_blue_dark_2;
+    background-size: 2rem 2rem;
+    background-position: center;
+  }
+
+  &:hover .c-user-box__img{
+    transform: scale(1.2);
+  }
+}
+
+.c-user-box__img {
+  transform: scale(1);
+  height: 100%;
+  width: 100%;
+
+  transition: transform $transition_speed;
+
+  background-size: cover;
+}
+
+.c-user-box__content {
+  
+}
+.c-user-box__name {
+  margin: .5rem 0;
+}
+.c-user-box__title {}

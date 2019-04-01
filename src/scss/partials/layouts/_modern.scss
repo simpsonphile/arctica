@@ -1,0 +1,27 @@
+.l-modern {}
+
+.l-modern__btn-nav {
+  margin: 6rem 0;
+}
+
+.l-modern__box-row::after {
+  content: "";
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: inline-block;
+  
+  margin: 2rem auto 0 auto;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  padding: 2rem;
+
+  background-image: url('../img/ico-arrow.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: $color_blue_dark_2;
+
+}

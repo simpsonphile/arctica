@@ -4,94 +4,137 @@
         "boxes": [
             {
                 "boxID": 1,
+                "boxCat": "web",
                 "title": "Some Brandingx",
                 "subtitle": "Creative Design",
                 "imgUrl": "./static/img/company1.jpg",
                 "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
                 "date": "<p>March 2013</p>",
-                "location": "Lorem Studio, NY",
-                "tool": "AI, PS Design"
+                "location": "<p>Lorem Studio, NY</p>",
+                "tool": "<p>AI, PS Design</p>"
             },
 
             {
                 "boxID": 2,
+                "boxCat": "graphic",
                 "title": "Some Brandingx",
                 "subtitle": "Creative Design",
                 "imgUrl": "./static/img/company2.jpg",
                 "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
                 "date": "<p>March 2013</p>",
-                "location": "Lorem Studio, NY",
-                "tool": "AI, PS Design"
+                "location": "<p>Lorem Studio, NY</p>",
+                "tool": "<p>AI, PS Design</p>"
             },
 
             {
                 "boxID": 3,
+                "boxCat": "graphic",
                 "title": "Some Brandingx",
                 "subtitle": "Creative Design",
                 "imgUrl": "./static/img/company3.jpg",
                 "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
                 "date": "<p>March 2013</p>",
-                "location": "Lorem Studio, NY",
-                "tool": "AI, PS Design"
+                "location": "<p>Lorem Studio, NY</p>",
+                "tool": "<p>AI, PS Design</p>"
             },
 
             {
                 "boxID": 4,
+                "boxCat": "photography",
                 "title": "Some Brandingx",
                 "subtitle": "Creative Design",
                 "imgUrl": "./static/img/company4.jpg",
                 "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
                 "date": "<p>March 2013</p>",
-                "location": "Lorem Studio, NY",
-                "tool": "AI, PS Design"
+                "location": "<p>Lorem Studio, NY</p>",
+                "tool": "<p>AI, PS Design</p>"
             },
 
             {
                 "boxID": 5,
+                "boxCat": "web",
                 "title": "Some Brandingx",
                 "subtitle": "Creative Design",
                 "imgUrl": "./static/img/company5.jpg",
                 "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
                 "date": "<p>March 2013</p>",
-                "location": "Lorem Studio, NY",
-                "tool": "AI, PS Design"
+                "location": "<p>Lorem Studio, NY</p>",
+                "tool": "<p>AI, PS Design</p>"
             },
 
             {
                 "boxID": 6,
+                "boxCat": "web",
                 "title": "Some Brandingx",
                 "subtitle": "Creative Design",
                 "imgUrl": "./static/img/company6.jpg",
                 "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
                 "date": "<p>March 2013</p>",
-                "location": "Lorem Studio, NY",
-                "tool": "AI, PS Design"
+                "location": "<p>Lorem Studio, NY</p>",
+                "tool": "<p>AI, PS Design</p>"
             },
 
             {
                 "boxID": 7,
+                "boxCat": "graphic",
                 "title": "Some Brandingx",
                 "subtitle": "Creative Design",
                 "imgUrl": "./static/img/company7.jpg",
                 "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
                 "date": "<p>March 2013</p>",
-                "location": "Lorem Studio, NY",
-                "tool": "AI, PS Design"
+                "location": "<p>Lorem Studio, NY</p>",
+                "tool": "<p>AI, PS Design</p>"
             },
 
             {
                 "boxID": 8,
+                "boxCat": "photography",
                 "title": "Some Brandingx",
                 "subtitle": "Creative Design",
                 "imgUrl": "./static/img/company8.jpg",
                 "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
                 "date": "<p>March 2013</p>",
-                "location": "Lorem Studio, NY",
-                "tool": "AI, PS Design"
+                "location": "<p>Lorem Studio, NY</p>",
+                "tool": "<p>AI, PS Design</p>"
             }
-
-
+        ],
+        "users": [
+            {
+                "boxID": 9,
+                "name": "Johny Bravo",
+                "title": "Creative Director",
+                "imgUrl": "./static/img/user-photo-1.jpg",
+                "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
+                "date": "<p>2 years in africa</p>",
+                "location": "<p>From NY</p>"
+            },
+            {
+                "boxID": 10,
+                "name": "Johny Bravo 2",
+                "title": "Creative Director",
+                "imgUrl": "./static/img/user-photo-2.jpg",
+                "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
+                "date": "<p>2 years in africa</p>",
+                "location": "<p>From NY</p>"
+            },
+            {
+                "boxID": 11,
+                "name": "Johny Bravo 3",
+                "title": "Creative Director",
+                "imgUrl": "./static/img/user-photo-3.jpg",
+                "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
+                "date": "<p>2 years in africa</p>",
+                "location": "<p>From NY</p>"
+            },
+            {
+                "boxID": 12,
+                "name": "Johny Bravo 4",
+                "title": "Creative Director",
+                "imgUrl": "./static/img/user-photo-4.jpg",
+                "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
+                "date": "<p>2 years in africa</p>",
+                "location": "<p>From NY</p>"
+            }
         ]
-            
     }
 }
