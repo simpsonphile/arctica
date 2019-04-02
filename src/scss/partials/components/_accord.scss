@@ -1,0 +1,28 @@
+.c-accord {
+  width: 100%;
+
+  background: $color_blue_light;
+
+  color: $color_white;
+}
+
+.c-accord__title {
+  align-items: center;
+
+  display: flex;
+  cursor: pointer;
+
+  padding: 1rem;
+}
+
+.c-accord__content {
+  display: none;
+
+  padding: 1rem;
+
+  background: $color_blue;
+}
+
+.c-accord.is-active .c-accord__content {
+  display: block;
+}

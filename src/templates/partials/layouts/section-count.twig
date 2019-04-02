@@ -1,0 +1,11 @@
+<div class="l-sec l-sec--default l-sec--bg-blue l-sec--t-white">
+  <div class="l-inner">
+    <div class="l-grid u-space-v-2 u-space-h-2">
+      {% for count in counts %}
+        <div class="l-grid__item l-grid__item-3 u-justify-content-center">
+          {% include '../components/count.twig' with {'count': count} %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
