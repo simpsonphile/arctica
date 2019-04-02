@@ -1,24 +1,16 @@
-.parsley-error {
-    border-color: $color_red;
-}
+.js-validate-error-label {
+    position: absolute;
+    left: 1rem;
+    
+    top: -1rem;
+    z-index: 2;
 
-.f-control--checkbox.parsley-error {
-    background: none;
-    color: $color_red;
-}
+    display: block;
 
-.parsley-errors-list {
-    @extend %helper-reset-list;
+    padding: .5rem;
 
-    font-size: 1.7rem;
+    background: $color_white;
 
-    line-height: 1;
-
-    text-transform: uppercase;
-
-    color: $color_red;
-
-    @include media("<=l") {
-        font-size: 1.4rem;
-    }
+    font-weight: 700;
+    font-size: 1.6rem;
 }

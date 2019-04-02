@@ -1,13 +1,13 @@
 .f-field {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 
     &:last-child {
         margin-bottom: 0;
     }
 
     @include media("<=m") {
-        margin-bottom: 20px;
+        margin-bottom: 2rem;
 
         &:last-child {
             margin-bottom: 0;
@@ -16,7 +16,7 @@
 
     &--block {
         .f-label {
-            margin-bottom: 5px;
+            margin-bottom: .5rem;
         }
     }
 
@@ -30,10 +30,10 @@
         }
 
         .f-label {
-            margin-right: 20px;
+            margin-right: 2rem;
 
             @include media("<=m") {
-                margin-bottom: 10px;
+                margin-bottom: 1rem;
             }
         }
 

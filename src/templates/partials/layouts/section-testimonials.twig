@@ -1,0 +1,16 @@
+<section class="l-sec l-sec--bg-white l-sec--t-gray l-sec--default">
+  <div class="l-inner">
+    <div class="l-sec__text">
+      <h2 class="t-head t-head--s1 u-paint-blue-dark-1">Testimonials</h2>
+    </div>
+    
+    <ul class="js-testimony-slider">
+    {% for slide in TestiSlides %}
+      <li>
+        {% include '../components/testiSlide.twig' with {'slide': slide} %}
+      </li>
+    {% endfor %}
+    </ul>
+
+  </div>
+</section>

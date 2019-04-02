@@ -179,6 +179,28 @@
                 "countdown": "50890",
                 "txt": "Followers"
             }
+        ],
+        "TestiSlides": [
+            {
+                "txt":  "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p>",
+                "quoter": "John Doe"
+            },
+            {
+                "txt":  "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p>",
+                "quoter": "Some Doe"
+            },
+            {
+                "txt":  "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p>",
+                "quoter": "Bravi Doe"
+            },
+            {
+                "txt":  "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p>",
+                "quoter": "Doe John"
+            },
+            {
+                "txt":  "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p>",
+                "quoter": "Johny Doe"
+            }
         ]
     }
 }

@@ -65,11 +65,23 @@
     address {
         font-style: normal;
     }
+
+    a {
+        color: inherit;
+    }
 }
 
 // Sizes
+.t-content--xs {
+    font-size: 1.1rem;
+}
+
 .t-content--primary {
     font-size: 1.5rem;
+}
+
+.t-content--medium {
+    font-size: 2rem;
 }
 
 .t-content--big {
