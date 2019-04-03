@@ -22,11 +22,21 @@
 .o-ico--l {
     width: 7rem;
     height: 7rem;
+
+    @include media('<=t-m'){
+        width: 5rem;
+        height: 5rem;
+    }
 }
 
 .o-ico--circle-big {
     width: 4.5rem;
     height: 4.5rem;
+
+    @include media('<=t-m') {
+        width: 3rem;
+        height: 3rem;
+    }
 }
 
 .o-ico--xs {

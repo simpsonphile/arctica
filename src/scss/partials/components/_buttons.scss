@@ -49,12 +49,38 @@
     
     font-size: 1.5rem;
     color: $color_white;
+
+    @include media('<=t-m'){
+        height: 4.5rem;
+        padding: 0 2rem;
+
+        font-size: 1.3rem;
+    }
+
+    @include media('<=m-s'){
+        height: 4rem;
+        padding: 0 1.5rem;
+
+        font-size: 1.2rem;
+    }
 }
 
 .c-btn--default-big {
     height: 6.5rem;
 
     font-size: 2rem;
+
+    @include media('<=t-m'){
+        height: 5.7rem;
+        
+        font-size: 1.7rem;
+    }
+
+    @include media('<=m-s'){
+        height: 4.5rem;
+
+        font-size: 1.4rem;
+    }
 }
 
 .c-btn--blue-light {
@@ -81,6 +107,20 @@
     &.is-active {
         background: $color_blue_secondary;
     }
+
+    @include media('<=t-m'){
+        height: 2.5rem;
+        padding: 1.2rem;
+        
+        font-size: 1.7rem;
+    }
+
+    @include media('<=t-m'){
+        height: 2rem;
+        padding: 0 1rem;
+        
+        font-size: 1.4rem;
+    }
 }
 
 .c-btn--hamburger {
@@ -88,6 +128,12 @@
     height: 2.25rem;
     transform: rotate(0deg);
     transition: transform .5s ease-in-out;
+
+    &:hover {
+        span {
+            background: $color_blue_light;
+        }
+    }
 }
 
 .c-btn--hamburger span {
@@ -118,5 +164,9 @@
 
 .c-btn--hamburger span:nth-child(4) {
     top: 1.8rem;
+}
+
+.c-btn-grid .c-btn {
+    margin: .5rem;
 }
 

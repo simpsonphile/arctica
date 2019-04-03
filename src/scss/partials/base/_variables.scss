@@ -44,9 +44,11 @@ $transition_speed:      200ms;
 ========================================================================== */
 $gutter:                20px;
 
-$size_inner:            1150px + ($gutter * 2);
+$size_inner:            1160px + ($gutter * 2);
 
 $header_height:         10rem;
+$header_height_tablet:  7.5rem;
+$header_height_mobile:  5rem;
 
 /* Breakpoints
 ========================================================================== */

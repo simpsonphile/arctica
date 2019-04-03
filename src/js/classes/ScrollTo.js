@@ -1,4 +1,5 @@
 import animateScrollTo from 'animated-scroll-to'
+import {BREAKPOINTS} from '../utils'
 
 export class ScrollTo {
   constructor () {
@@ -17,9 +18,14 @@ export class ScrollTo {
 
         const target = button.dataset.target
         const element = document.querySelector(target)
+        let offset = 100
+
+        if (window.innerWidth <= BREAKPOINTS.tablet) offset = 75
+        if (window.innerWidth <= BREAKPOINTS.mobile) offset = 50
 
         animateScrollTo(element, {
-          speed: 1000
+          speed: 1000,
+          offset: -offset
         })
       })
     })

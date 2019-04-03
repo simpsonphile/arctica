@@ -13,4 +13,9 @@
 
     font-weight: 700;
     font-size: 1.6rem;
+
+    @include media('<=t-m'){
+        font-size: 1.1rem;
+        padding: 0;
+    }
 }

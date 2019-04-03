@@ -78,12 +78,36 @@
 
 .t-content--primary {
     font-size: 1.5rem;
+
+    @include media('<=t-m') {
+        font-size: 1.3rem;
+    }
+
+    @include media('<=m-s') {
+        font-size: 1.2rem;
+    }
 }
 
 .t-content--medium {
     font-size: 2rem;
+
+    @include media('<=t-m') {
+        font-size: 1.7rem;
+    }
+
+    @include media('<=m-s') {
+        font-size: 1.5rem;
+    }
 }
 
 .t-content--big {
     font-size: 2.5rem;
+
+    @include media('<=t-m') {
+        font-size: 2.1rem;
+    }
+
+    @include media('<=m-s') {
+        font-size: 1.8rem;
+    }
 }

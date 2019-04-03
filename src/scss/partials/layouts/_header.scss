@@ -17,10 +17,44 @@
     display: flex;
 
     height: $header_height;
+
+    @include media('<=t') {
+        height: $header_height_tablet;
+    }
+
+    @include media('<=m') {
+        height: $header_height_mobile;
+    }
+}
+
+.l-header__hamburger {
+    padding: 1rem;
+}
+
+.l-header__cloack {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+
+    display: none;
+
+    background: rgba($color_black, .8);
+
+    &.u-show {
+        display: block;
+    }
 }
 
 .l-header__nav {
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 100;
+
+    @include media('<=m') {
+        left: 0;
+    }
 }

@@ -14,8 +14,12 @@
 
         font-size: 1.5rem;
 
-        @include media("<=l") {
-            font-size: 1.4rem;
+        @include media('<=t-m') {
+            font-size: 1.3rem;
+        }
+
+        @include media('<=m-s') {
+            font-size: 1.2rem;
         }
     }
 
@@ -38,6 +42,10 @@
 
         @include media("<=l") {
             padding: 1.5rem;
+        }
+
+        @include media('<=m') {
+            padding: 1rem;
         }
 
         &.f-control--select {

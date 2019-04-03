@@ -8,7 +8,7 @@
                 "title": "Some Brandingx",
                 "subtitle": "Creative Design",
                 "imgUrl": "./static/img/company1.jpg",
-                "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
+                "desc": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet.<br /> Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p>",
                 "date": "<p>March 2013</p>",
                 "location": "<p>Lorem Studio, NY</p>",
                 "tool": "<p>AI, PS Design</p>"
@@ -200,6 +200,50 @@
             {
                 "txt":  "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p>",
                 "quoter": "Johny Doe"
+            }
+        ],
+        "posts": [
+            {
+                "imgPos": "left",
+                "imgUrl": "./static/img/company1.jpg",
+                "title": "Great party we have there",
+                "publisher": "John Doe",
+                "text": "<p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>"
+            },
+            {
+                "imgPos": "left",
+                "imgUrl": "./static/img/company2.jpg",
+                "title": "Great party we have there",
+                "publisher": "John Doe",
+                "text": "<p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>"
+            },
+            {
+                "imgPos": "none",
+                
+                "title": "Great day",
+                "publisher": "John Doe",
+                "text": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsantincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibu lum ac diam sit anet.</p><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet. </p>"
+            },
+            {
+                "imgPos": "top",
+                "imgUrl": "./static/img/company4.jpg",
+                "title": "Great party we have there",
+                "publisher": "John Doe",
+                "text": "<p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>"
+            },
+            {
+                "imgPos": "none",
+                
+                "title": "Great party we have there",
+                "publisher": "John Doe",
+                "text": "<p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>"
+            },
+            {
+                "imgPos": "none",
+                
+                "title": "Great party we have there",
+                "publisher": "John Doe",
+                "text": "<p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>"
             }
         ]
     }

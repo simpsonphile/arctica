@@ -1,12 +1,59 @@
 .c-count {
+  align-items: center;
+
   display: flex;
+
+  @include media('<=t-m'){
+    flex-direction: column;
+  }
 }
 
 .c-count__ico {
   margin-right: 1rem;
+
+  @include media('<=t-m'){
+    align-items: center;
+
+    display: flex;
+
+    margin: 0 0 1rem 0;
+    width: 5rem;
+    height: 6rem;
+  }
+
+  @include media('<=m') {
+    margin: 0 0 .5rem 0;
+    width: 4rem;
+    height: 4.5rem;
+  }
+
+  @include media('<=m-s') {
+    margin: 0 0 .5rem 0;
+    width: 3rem;
+    height: 3.5rem;
+  }
 }
 
 .c-count__number {
   font-size: 4rem;
   line-height: 1;
+
+  @include media('<=t-m'){
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  @include media('<=m'){
+    font-size: 2.5rem;
+  }
+
+  @include media('<=m-s') {
+    font-size: 2.25rem;
+  }
+}
+
+.c-count__desc {
+  @include media('<=t-m'){
+    text-align: center;
+  }
 }

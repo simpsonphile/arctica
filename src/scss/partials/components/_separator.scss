@@ -12,7 +12,17 @@
 
         height: 1px;
         width: 27rem;
+        max-width: 45%;
+        
         background: $color_gray_2;
+
+        @include media('<=t-m') {
+            width: 18rem;
+        }
+
+        @include media('<=m-s') {
+            width: 12rem;
+        }
     }
 }
 
@@ -35,8 +45,4 @@
     .c-separator__circle {
         border: 1px solid $color_white;
     }
-}
-
-.c-separator--big-gap {
-    margin: 4rem 0;
 }

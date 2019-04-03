@@ -14,14 +14,51 @@
 
 .t-head--s1 {
     font-size: 3rem;
+
+    @include media('<=t-m') {
+        font-size: 2.5rem;
+    }
+
+    @include media('<=m-s') {
+        font-size: 2rem;
+    }
+}
+
+.t-head--s4 {
+    font-size: 2.5rem;
+
+    @include media('<=t-m') {
+        font-size: 2rem;
+    }
+
+    @include media('<=m-s') {
+        font-size: 1.6rem;
+    }
+
 }
 
 .t-head--s2 {
     font-size: 2rem;
+
+    @include media('<=t-m') {
+        font-size: 1.7rem;
+    }
+
+    @include media('<=m-s') {
+        font-size: 1.5rem;
+    }
 }
 
 .t-head--s3 {
     font-size: 1.5rem;
+
+    @include media('<=t-m') {
+        font-size: 1.3rem;
+    }
+
+    @include media('<=m-s') {
+        font-size: 1.2rem;
+    }
 }
 
 

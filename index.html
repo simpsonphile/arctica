@@ -27,6 +27,8 @@
         </div>
     </div>
 
+    <span class="l-header__cloack js-cloack"></span>
+
     <div class="l-header__nav">
         <div class="c-nav js-main-nav">
             <div class="c-nav__top">
@@ -49,23 +51,23 @@
                 <li class="c-nav__el"><a href="#contact" class="c-nav__el-link js-scroll-to js-menu-el" data-target="#contact">Contact</a></li>
             </ul>
 
-            <div class="u-flex u-align-items-center u-justify-content-between">
-                <a href="#" class="o-ico o-ico--social-sqr">
+            <div class="c-nav__socials">
+                <a href="#" class="o-ico o-ico--social-sqr c-nav__social">
                     <img src="./static/img/ico-fb.png" alt="facebook">
                 </a>
-                <a href="#" class="o-ico o-ico--social-sqr">
+                <a href="#" class="o-ico o-ico--social-sqr c-nav__social">
                     <img src="./static/img/ico-twitter-2.png" alt="twitter">
                 </a>
-                <a href="#" class="o-ico o-ico--social-sqr">
+                <a href="#" class="o-ico o-ico--social-sqr c-nav__social">
                     <img src="./static/img/ico-google.png" alt="google plus">
                 </a>
-                <a href="#" class="o-ico o-ico--social-sqr">
+                <a href="#" class="o-ico o-ico--social-sqr c-nav__social">
                     <img src="./static/img/ico-linkedin.png" alt="linkedin">
                 </a>
-                <a href="#" class="o-ico o-ico--social-sqr">
+                <a href="#" class="o-ico o-ico--social-sqr c-nav__social">
                     <img src="./static/img/ico-behance.png" alt="behance">
                 </a>
-                <a href="#" class="o-ico o-ico--social-sqr">
+                <a href="#" class="o-ico o-ico--social-sqr c-nav__social">
                     <img src="./static/img/ico-dribbble.png" alt="dribbble">
                 </a>
             </div>
@@ -75,39 +77,42 @@
             <section class="l-sec l-sec--t-white l-hero" id="home">
   <span class="l-sec__bg l-sec__bg--gray-mask"
         style="background-image: url('./static/img/architecture-city.jpg');"></span>
+
   <div class="l-inner l-hero__inner">
     <div class="l-hero__box">
-      <div class="l-sec__text">
+      <div class="l-sec__text l-sec__row--small">
         <h1 class="c-logo c-logo--big l-hero__title u-paint-white-1">Artica</h1>
 
         <span class="c-separator c-separator--white">
           <span class="c-separator__circle"></span>
         </span>
 
-        <div class="t-content l-hero__content">
+        <div class="t-content t-content--primary l-hero__content">
           <p>
             Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttlit nisi,pretium ut lacinia in elementumestibulum ac diam sit anet.
           </p>
         </div>
-
-        <a href="#" class="c-btn c-btn--default">
-          <span class="c-btn__wrap">Purshase Theme</span>  
-        </a>
       </div>
+
+      <a href="#" class="c-btn c-btn--default">
+        <span class="c-btn__wrap">Purshase Theme</span>
+      </a>
     </div>
   </div>
 </section>            <section class="l-sec l-sec--bg-white l-sec--t-gray l-sec--default" id="services">
   <div class="l-inner">
-    <div class="l-sec__text">
-      <h2 class="t-head t-head--s1 u-paint-blue-dark-1">FULLY LAYERED AND CUSTOMIZABLE TEMPLATE</h2>
+    <div class="l-sec__text l-sec__row">
+      <div class="l-sec__row--small">
+        <h2 class="t-head t-head--s1 u-paint-blue-dark-1">FULLY LAYERED AND CUSTOMIZABLE TEMPLATE</h2>
 
-      <h3 class="t-head t-head--s2 u-text-light l-sec__sub-head">Our Services</h2>
+        <h3 class="t-head t-head--s2 u-text-light l-sec__sub-head">Our Services</h2>
 
-      <span class="c-separator">
-        <span class="c-separator__circle"></span>
-      </span>
+        <span class="c-separator">
+          <span class="c-separator__circle"></span>
+        </span>
+      </div>
 
-      <div class="t-content">
+      <div class="t-content t-content--primary">
         <p>
           Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac inia in, elementum id enim. Vestibulum ac diam sit anet.
         </p>
@@ -115,7 +120,7 @@
     </div>
 
     <div class="l-grid u-space-v-4 u-space-h-4">
-      <div class="l-grid__item l-grid__item-3">
+      <div class="l-grid__item l-grid__item-3 l-grid__item-6@t-m l-grid__item-12@m-s">
         <div class="c-ico-box">
           <div class="c-ico-box__ico-wrap c-ico-box__ico-wrap--rounded">
             <div class="o-ico o-ico--circle-big c-ico-box__ico">
@@ -125,7 +130,7 @@
 
           <div class="c-ico-box__text">
             <h3 class="t-head t-head--s2 c-ico-box__title u-paint-blue-light-1">Html&amp;css</h3>
-            <div class="t-content c-ico-box__desc">
+            <div class="t-content t-content--primary c-ico-box__desc">
               <p>
                 Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor.
               </p>
@@ -134,7 +139,7 @@
         </div><!--end of c-ico-box -->
       </div><!--end of l-grid-item -->
 
-      <div class="l-grid__item l-grid__item-3">
+      <div class="l-grid__item l-grid__item-3 l-grid__item-6@t-m l-grid__item-12@m-s">
         <div class="c-ico-box">
           <div class="c-ico-box__ico-wrap c-ico-box__ico-wrap--rounded">
             <div class="o-ico o-ico--circle-big c-ico-box__ico">
@@ -144,7 +149,7 @@
 
           <div class="c-ico-box__text">
             <h3 class="t-head t-head--s2 c-ico-box__title u-paint-blue-light-1">GRAPHIC DESIGN</h3>
-            <div class="t-content c-ico-box__desc">
+            <div class="t-content t-content--primary c-ico-box__desc">
               <p>
                 Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor.
               </p>
@@ -153,7 +158,7 @@
         </div><!--end of c-ico-box -->
       </div><!--end of l-grid-item -->
 
-      <div class="l-grid__item l-grid__item-3">
+      <div class="l-grid__item l-grid__item-3 l-grid__item-6@t-m l-grid__item-12@m-s">
         <div class="c-ico-box">
           <div class="c-ico-box__ico-wrap c-ico-box__ico-wrap--rounded">
             <div class="o-ico o-ico--circle-big c-ico-box__ico">
@@ -163,7 +168,7 @@
 
           <div class="c-ico-box__text">
             <h3 class="t-head t-head--s2 c-ico-box__title u-paint-blue-light-1">ON TIME PROJECTS</h3>
-            <div class="t-content c-ico-box__desc">
+            <div class="t-content t-content--primary c-ico-box__desc">
               <p>
                 Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor.
               </p>
@@ -172,7 +177,7 @@
         </div><!--end of c-ico-box -->
       </div><!--end of l-grid-item -->
 
-      <div class="l-grid__item l-grid__item-3">
+      <div class="l-grid__item l-grid__item-3 l-grid__item-6@t-m l-grid__item-12@m-s">
         <div class="c-ico-box">
           <div class="c-ico-box__ico-wrap c-ico-box__ico-wrap--rounded">
             <div class="o-ico o-ico--circle-big c-ico-box__ico">
@@ -182,7 +187,7 @@
 
           <div class="c-ico-box__text">
             <h3 class="t-head t-head--s2 c-ico-box__title u-paint-blue-light-1">FULLY SUPPORT</h3>
-            <div class="t-content c-ico-box__desc">
+            <div class="t-content t-content--primary c-ico-box__desc">
               <p>
                 Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor.
               </p>
@@ -192,13 +197,13 @@
       </div><!--end of l-grid-item -->
     </div><!--end of l-grid -->
   </div>
-</section>            <section class="l-sec l-sec--t-white l-sec--default l-quote u-text-center">
+</section>            <section class="l-sec l-sec--t-white l-sec--default u-text-center">
   <span class="l-sec__bg l-sec__bg--dark-blue-mask" 
         style="background-image:url(./static/img/architecture-design.jpg);">
   </span>
 
   <div class="l-inner">
-    <div class="l-sec__row">
+    <div class="l-sec__row--small-2">
       <div class="t-content t-content--big u-text-light">
         <p>
           Design must reflect the practical and aesthetic in business but above all... <br />
@@ -207,7 +212,7 @@
       </div>
     </div>
 
-    <div class="t-content t-content--default">
+    <div class="t-content t-content--primary">
       <p>
         <strong>Thomas J. Watson</strong>
       </p>
@@ -216,460 +221,438 @@
   </div>
 </section>            <section class="l-sec l-sec--bg-white l-sec--t-gray l-sec--default l-modern" id="portfolio">
   <div class="l-inner">
-    <div class="l-sec__text">
-      <h2 class="t-head t-head--s1 u-paint-blue-dark-1 l-sec__main-head">MODERN AND CLEAN DESIGN</h2>
+    <div class="l-sec__text l-sec__row">
+      <div class="l-sec__row--small">
+        <h2 class="t-head t-head--s1 u-paint-blue-dark-1 l-sec__main-head">MODERN AND CLEAN DESIGN</h2>
 
-      <h3 class="t-head t-head--s2 u-text-light l-sec__sub-head">Our Portfolio</h3>
+        <h3 class="t-head t-head--s2 u-text-light l-sec__sub-head">Our Portfolio</h3>
 
-      <span class="c-separator">
-        <span class="c-separator__circle"></span>
-      </span>
+        <span class="c-separator">
+          <span class="c-separator__circle"></span>
+        </span>
+      </div>
 
-      <div class="t-content">
+      <div class="t-content t-content--primary">
         <p>
           Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac inia in, elementum id enim. Vestibulum ac diam sit anet.
         </p>
       </div>
     </div>
 
-    <div class="l-sec__row u-text-center">
+    <div class="l-sec__row--big u-flex u-wrap u-justify-content-center c-btn-grid">
       <button class="c-btn c-btn--alt is-active js-cat-btn" data-trigger-cat="all">All</button>
       <button class="c-btn c-btn--alt js-cat-btn" data-trigger-cat="graphic">Graphic</button>
       <button class="c-btn c-btn--alt js-cat-btn" data-trigger-cat="web">Web</button>
       <button class="c-btn c-btn--alt js-cat-btn" data-trigger-cat="photography">Photography</button>
     </div>
 
-    <div class="l-sec__row l-modern__box-row">
+    <div class="l-sec__row--big-2 l-sec__ico-after">
       <div class="l-grid u-space-v-4 u-space-h-2">
                           <div style="order:100;" class="l-grid__item l-grid__item-12 u-hidden js-tooltip-wrap" data-box-tooltip="1">
   <div class="c-tooltip u-paint-white-1">
     <span class="c-tooltip__bg"></span>
-    <div class="l-grid u-space-h-2 c-tooltip__box">
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__img">
-          <img src="./static/img/company1.jpg" alt="Some Brandingx">
-        </div>
+    
+    <div class="c-tooltip__box">
+      <div class="c-tooltip__img">
+        <img src="./static/img/company1.jpg" alt="Some Brandingx">
       </div>
 
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__content">
-          <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
+      <div class="c-tooltip__content">
+        <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
 
-          <div class="t-content c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
+        <div class="t-content t-content--primary c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet.<br /> Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
 
-          <ul class="c-tooltip__list">
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-clock-2.png" alt="clock">
-              </div>
+        <ul class="c-tooltip__list">
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-clock-2.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>March 2013</p>
-              </div>
-            </li>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>March 2013</p>
+            </div>
+          </li>
 
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-user.png" alt="clock">
-              </div>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-user.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>Lorem Studio, NY</p>
-              </div>
-            </li>
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-tool.png" alt="clock">
-              </div>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>Lorem Studio, NY</p>
+            </div>
+          </li>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-tool.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>AI, PS Design</p>
-              </div>
-            </li>
-          </ul>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>AI, PS Design</p>
+            </div>
+          </li>
+        </ul>
 
-          <a href="#" class="c-btn c-btn--default">
-            <span class="c-btn__wrap">View in action</span>
-          </a>
-        </div>
+        <a href="#" class="c-btn c-btn--default">
+          <span class="c-btn__wrap">View in action</span>
+        </a>
       </div>
     </div>
   </div>
 </div>                          <div style="order:100;" class="l-grid__item l-grid__item-12 u-hidden js-tooltip-wrap" data-box-tooltip="2">
   <div class="c-tooltip u-paint-white-1">
     <span class="c-tooltip__bg"></span>
-    <div class="l-grid u-space-h-2 c-tooltip__box">
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__img">
-          <img src="./static/img/company2.jpg" alt="Some Brandingx">
-        </div>
+    
+    <div class="c-tooltip__box">
+      <div class="c-tooltip__img">
+        <img src="./static/img/company2.jpg" alt="Some Brandingx">
       </div>
 
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__content">
-          <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
+      <div class="c-tooltip__content">
+        <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
 
-          <div class="t-content c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
+        <div class="t-content t-content--primary c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
 
-          <ul class="c-tooltip__list">
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-clock-2.png" alt="clock">
-              </div>
+        <ul class="c-tooltip__list">
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-clock-2.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>March 2013</p>
-              </div>
-            </li>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>March 2013</p>
+            </div>
+          </li>
 
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-user.png" alt="clock">
-              </div>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-user.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>Lorem Studio, NY</p>
-              </div>
-            </li>
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-tool.png" alt="clock">
-              </div>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>Lorem Studio, NY</p>
+            </div>
+          </li>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-tool.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>AI, PS Design</p>
-              </div>
-            </li>
-          </ul>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>AI, PS Design</p>
+            </div>
+          </li>
+        </ul>
 
-          <a href="#" class="c-btn c-btn--default">
-            <span class="c-btn__wrap">View in action</span>
-          </a>
-        </div>
+        <a href="#" class="c-btn c-btn--default">
+          <span class="c-btn__wrap">View in action</span>
+        </a>
       </div>
     </div>
   </div>
 </div>                          <div style="order:100;" class="l-grid__item l-grid__item-12 u-hidden js-tooltip-wrap" data-box-tooltip="3">
   <div class="c-tooltip u-paint-white-1">
     <span class="c-tooltip__bg"></span>
-    <div class="l-grid u-space-h-2 c-tooltip__box">
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__img">
-          <img src="./static/img/company3.jpg" alt="Some Brandingx">
-        </div>
+    
+    <div class="c-tooltip__box">
+      <div class="c-tooltip__img">
+        <img src="./static/img/company3.jpg" alt="Some Brandingx">
       </div>
 
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__content">
-          <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
+      <div class="c-tooltip__content">
+        <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
 
-          <div class="t-content c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
+        <div class="t-content t-content--primary c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
 
-          <ul class="c-tooltip__list">
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-clock-2.png" alt="clock">
-              </div>
+        <ul class="c-tooltip__list">
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-clock-2.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>March 2013</p>
-              </div>
-            </li>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>March 2013</p>
+            </div>
+          </li>
 
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-user.png" alt="clock">
-              </div>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-user.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>Lorem Studio, NY</p>
-              </div>
-            </li>
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-tool.png" alt="clock">
-              </div>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>Lorem Studio, NY</p>
+            </div>
+          </li>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-tool.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>AI, PS Design</p>
-              </div>
-            </li>
-          </ul>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>AI, PS Design</p>
+            </div>
+          </li>
+        </ul>
 
-          <a href="#" class="c-btn c-btn--default">
-            <span class="c-btn__wrap">View in action</span>
-          </a>
-        </div>
+        <a href="#" class="c-btn c-btn--default">
+          <span class="c-btn__wrap">View in action</span>
+        </a>
       </div>
     </div>
   </div>
 </div>                          <div style="order:100;" class="l-grid__item l-grid__item-12 u-hidden js-tooltip-wrap" data-box-tooltip="4">
   <div class="c-tooltip u-paint-white-1">
     <span class="c-tooltip__bg"></span>
-    <div class="l-grid u-space-h-2 c-tooltip__box">
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__img">
-          <img src="./static/img/company4.jpg" alt="Some Brandingx">
-        </div>
+    
+    <div class="c-tooltip__box">
+      <div class="c-tooltip__img">
+        <img src="./static/img/company4.jpg" alt="Some Brandingx">
       </div>
 
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__content">
-          <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
+      <div class="c-tooltip__content">
+        <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
 
-          <div class="t-content c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
+        <div class="t-content t-content--primary c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
 
-          <ul class="c-tooltip__list">
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-clock-2.png" alt="clock">
-              </div>
+        <ul class="c-tooltip__list">
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-clock-2.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>March 2013</p>
-              </div>
-            </li>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>March 2013</p>
+            </div>
+          </li>
 
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-user.png" alt="clock">
-              </div>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-user.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>Lorem Studio, NY</p>
-              </div>
-            </li>
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-tool.png" alt="clock">
-              </div>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>Lorem Studio, NY</p>
+            </div>
+          </li>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-tool.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>AI, PS Design</p>
-              </div>
-            </li>
-          </ul>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>AI, PS Design</p>
+            </div>
+          </li>
+        </ul>
 
-          <a href="#" class="c-btn c-btn--default">
-            <span class="c-btn__wrap">View in action</span>
-          </a>
-        </div>
+        <a href="#" class="c-btn c-btn--default">
+          <span class="c-btn__wrap">View in action</span>
+        </a>
       </div>
     </div>
   </div>
 </div>                          <div style="order:100;" class="l-grid__item l-grid__item-12 u-hidden js-tooltip-wrap" data-box-tooltip="5">
   <div class="c-tooltip u-paint-white-1">
     <span class="c-tooltip__bg"></span>
-    <div class="l-grid u-space-h-2 c-tooltip__box">
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__img">
-          <img src="./static/img/company5.jpg" alt="Some Brandingx">
-        </div>
+    
+    <div class="c-tooltip__box">
+      <div class="c-tooltip__img">
+        <img src="./static/img/company5.jpg" alt="Some Brandingx">
       </div>
 
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__content">
-          <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
+      <div class="c-tooltip__content">
+        <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
 
-          <div class="t-content c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
+        <div class="t-content t-content--primary c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
 
-          <ul class="c-tooltip__list">
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-clock-2.png" alt="clock">
-              </div>
+        <ul class="c-tooltip__list">
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-clock-2.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>March 2013</p>
-              </div>
-            </li>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>March 2013</p>
+            </div>
+          </li>
 
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-user.png" alt="clock">
-              </div>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-user.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>Lorem Studio, NY</p>
-              </div>
-            </li>
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-tool.png" alt="clock">
-              </div>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>Lorem Studio, NY</p>
+            </div>
+          </li>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-tool.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>AI, PS Design</p>
-              </div>
-            </li>
-          </ul>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>AI, PS Design</p>
+            </div>
+          </li>
+        </ul>
 
-          <a href="#" class="c-btn c-btn--default">
-            <span class="c-btn__wrap">View in action</span>
-          </a>
-        </div>
+        <a href="#" class="c-btn c-btn--default">
+          <span class="c-btn__wrap">View in action</span>
+        </a>
       </div>
     </div>
   </div>
 </div>                          <div style="order:100;" class="l-grid__item l-grid__item-12 u-hidden js-tooltip-wrap" data-box-tooltip="6">
   <div class="c-tooltip u-paint-white-1">
     <span class="c-tooltip__bg"></span>
-    <div class="l-grid u-space-h-2 c-tooltip__box">
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__img">
-          <img src="./static/img/company6.jpg" alt="Some Brandingx">
-        </div>
+    
+    <div class="c-tooltip__box">
+      <div class="c-tooltip__img">
+        <img src="./static/img/company6.jpg" alt="Some Brandingx">
       </div>
 
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__content">
-          <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
+      <div class="c-tooltip__content">
+        <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
 
-          <div class="t-content c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
+        <div class="t-content t-content--primary c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
 
-          <ul class="c-tooltip__list">
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-clock-2.png" alt="clock">
-              </div>
+        <ul class="c-tooltip__list">
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-clock-2.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>March 2013</p>
-              </div>
-            </li>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>March 2013</p>
+            </div>
+          </li>
 
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-user.png" alt="clock">
-              </div>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-user.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>Lorem Studio, NY</p>
-              </div>
-            </li>
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-tool.png" alt="clock">
-              </div>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>Lorem Studio, NY</p>
+            </div>
+          </li>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-tool.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>AI, PS Design</p>
-              </div>
-            </li>
-          </ul>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>AI, PS Design</p>
+            </div>
+          </li>
+        </ul>
 
-          <a href="#" class="c-btn c-btn--default">
-            <span class="c-btn__wrap">View in action</span>
-          </a>
-        </div>
+        <a href="#" class="c-btn c-btn--default">
+          <span class="c-btn__wrap">View in action</span>
+        </a>
       </div>
     </div>
   </div>
 </div>                          <div style="order:100;" class="l-grid__item l-grid__item-12 u-hidden js-tooltip-wrap" data-box-tooltip="7">
   <div class="c-tooltip u-paint-white-1">
     <span class="c-tooltip__bg"></span>
-    <div class="l-grid u-space-h-2 c-tooltip__box">
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__img">
-          <img src="./static/img/company7.jpg" alt="Some Brandingx">
-        </div>
+    
+    <div class="c-tooltip__box">
+      <div class="c-tooltip__img">
+        <img src="./static/img/company7.jpg" alt="Some Brandingx">
       </div>
 
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__content">
-          <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
+      <div class="c-tooltip__content">
+        <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
 
-          <div class="t-content c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
+        <div class="t-content t-content--primary c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
 
-          <ul class="c-tooltip__list">
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-clock-2.png" alt="clock">
-              </div>
+        <ul class="c-tooltip__list">
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-clock-2.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>March 2013</p>
-              </div>
-            </li>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>March 2013</p>
+            </div>
+          </li>
 
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-user.png" alt="clock">
-              </div>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-user.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>Lorem Studio, NY</p>
-              </div>
-            </li>
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-tool.png" alt="clock">
-              </div>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>Lorem Studio, NY</p>
+            </div>
+          </li>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-tool.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>AI, PS Design</p>
-              </div>
-            </li>
-          </ul>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>AI, PS Design</p>
+            </div>
+          </li>
+        </ul>
 
-          <a href="#" class="c-btn c-btn--default">
-            <span class="c-btn__wrap">View in action</span>
-          </a>
-        </div>
+        <a href="#" class="c-btn c-btn--default">
+          <span class="c-btn__wrap">View in action</span>
+        </a>
       </div>
     </div>
   </div>
 </div>                          <div style="order:100;" class="l-grid__item l-grid__item-12 u-hidden js-tooltip-wrap" data-box-tooltip="8">
   <div class="c-tooltip u-paint-white-1">
     <span class="c-tooltip__bg"></span>
-    <div class="l-grid u-space-h-2 c-tooltip__box">
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__img">
-          <img src="./static/img/company8.jpg" alt="Some Brandingx">
-        </div>
+    
+    <div class="c-tooltip__box">
+      <div class="c-tooltip__img">
+        <img src="./static/img/company8.jpg" alt="Some Brandingx">
       </div>
 
-      <div class="l-grid__item l-grid__item-6">
-        <div class="c-tooltip__content">
-          <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
+      <div class="c-tooltip__content">
+        <h3 class="t-head t-head--s2 c-tooltip__title">Some Brandingx</h3>
 
-          <div class="t-content c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
+        <div class="t-content t-content--primary c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
 
-          <ul class="c-tooltip__list">
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-clock-2.png" alt="clock">
-              </div>
+        <ul class="c-tooltip__list">
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-clock-2.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>March 2013</p>
-              </div>
-            </li>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>March 2013</p>
+            </div>
+          </li>
 
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-user.png" alt="clock">
-              </div>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-user.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>Lorem Studio, NY</p>
-              </div>
-            </li>
-            <li class="c-tooltip__list-el">
-              <div class="o-ico--xs c-tooltip__list-ico">
-                <img src="./static/img/ico-tool.png" alt="clock">
-              </div>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>Lorem Studio, NY</p>
+            </div>
+          </li>
+          <li class="c-tooltip__list-el">
+            <div class="o-ico--xs c-tooltip__list-ico">
+              <img src="./static/img/ico-tool.png" alt="clock">
+            </div>
 
-              <div class="t-content t-content--primary c-tooltip__list-txt">
-                <p>AI, PS Design</p>
-              </div>
-            </li>
-          </ul>
+            <div class="t-content t-content--primary c-tooltip__list-txt">
+              <p>AI, PS Design</p>
+            </div>
+          </li>
+        </ul>
 
-          <a href="#" class="c-btn c-btn--default">
-            <span class="c-btn__wrap">View in action</span>
-          </a>
-        </div>
+        <a href="#" class="c-btn c-btn--default">
+          <span class="c-btn__wrap">View in action</span>
+        </a>
       </div>
     </div>
   </div>
@@ -749,17 +732,17 @@
 </div>                      </div><!--end l-grid -->
     </div>
 
-    <div class="l-sec__text">
+    <div class="l-sec__text l-sec__row--small">
       <h2 class="t-head t-head--s1 u-paint-blue-dark-1 l-sec__main-head">We love our work</h2>
     
-      <div class="t-content l-sec__text-content">
+      <div class="t-content t-content--primary l-sec__text-content">
         <p>
           Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac inia in, elementum id enim. Vestibulum ac diam sit anet.
         </p>
       </div>
     </div>
 
-    <div class="l-sec__text">
+    <div class="u-text-center">
       <a href="#" class="c-btn c-btn--default c-btn--blue-light">
         <span class="c-btn__wrap">Purshase Theme</span>
       </a>
@@ -769,16 +752,18 @@
 
 </section>            <section class="l-sec l-sec--default l-sec--bg-blue l-sec--t-white" id="about">
   <div class="l-inner">
-    <div class="l-sec__text">
-      <h2 class="t-head t-head--s1 l-sec__main-head">FULLY RESPONSIVE DESIGN</h2>
+    <div class="l-sec__text l-sec__row--big-2">
+      <div class="l-sec__row--small">
+        <h2 class="t-head t-head--s1 l-sec__main-head">FULLY RESPONSIVE DESIGN</h2>
 
-      <h3 class="t-head t-head--s2 l-sec__sub-head">About Us</h3>
+        <h3 class="t-head t-head--s2 l-sec__sub-head">About Us</h3>
 
-      <span class="c-separator c-separator--white">
-        <span class="c-separator__circle"></span>
-      </span>
+        <span class="c-separator c-separator--white">
+          <span class="c-separator__circle"></span>
+        </span>
+      </div>
 
-      <div class="t-content">
+      <div class="t-content t-content--primary">
         <p>
           Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac inia in, elementum id enim. Vestibulum ac diam sit anet.
         </p>
@@ -786,7 +771,7 @@
     </div>
 
     <div class="l-sec__row">
-      <div class="l-grid u-space-h-2 u-space-v-4 ">
+      <div class="l-grid u-space-h-2 u-space-v-6 ">
                             <div style="order:100;" class="l-grid__item l-grid__item-12 js-tooltip-wrap u-hidden" data-box-tooltip="9">
   <div class="c-tooltip c-tooltip--alt u-paint-white-1">
     <span class="c-tooltip__bg"></span>
@@ -794,7 +779,7 @@
       <div class="c-tooltip__content">
         <h3 class="t-head t-head--s2 c-tooltip__title">Johny Bravo</h3>
 
-        <div class="t-content c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
+        <div class="t-content t-content--primary c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
 
         <ul class="c-tooltip__list">
           <li class="c-tooltip__list-el">
@@ -827,7 +812,7 @@
       <div class="c-tooltip__content">
         <h3 class="t-head t-head--s2 c-tooltip__title">Johny Bravo 2</h3>
 
-        <div class="t-content c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
+        <div class="t-content t-content--primary c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
 
         <ul class="c-tooltip__list">
           <li class="c-tooltip__list-el">
@@ -860,7 +845,7 @@
       <div class="c-tooltip__content">
         <h3 class="t-head t-head--s2 c-tooltip__title">Johny Bravo 3</h3>
 
-        <div class="t-content c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
+        <div class="t-content t-content--primary c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
 
         <ul class="c-tooltip__list">
           <li class="c-tooltip__list-el">
@@ -893,7 +878,7 @@
       <div class="c-tooltip__content">
         <h3 class="t-head t-head--s2 c-tooltip__title">Johny Bravo 4</h3>
 
-        <div class="t-content c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
+        <div class="t-content t-content--primary c-tooltip__txt u-text-light"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena port titor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Ves tibulum ac diam sit anet. Oitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla portti tor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accum san tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit anet.</p></div>
 
         <ul class="c-tooltip__list">
           <li class="c-tooltip__list-el">
@@ -920,48 +905,48 @@
     </div>
   </div>
 </div>                
-                          <div style="order:1;" class="l-grid__item l-grid__item-3 u-non-grow l-grid__item-4@t-m l-grid__item-6@m l-grid__item-12@m-s">
+                          <div style="order:1;" class="l-grid__item l-grid__item-3 u-non-grow l-grid__item-6@m ">
   <div class="c-user-box js-box" data-box-tooltip-trigger="9">
     <div class="c-user-box__img-wrap">
       <img class="c-user-box__img" style="background-image:url(./static/img/user-photo-1.jpg);">
     </div>
     
     <div class="c-user-box__content">
-      <h3 class="t-head t-head--s2 c-user-box__name u-text-bold">Johny Bravo</h3>
-      <h4 class="t-head t-head--s3 c-user-box__title u-text-light">Creative Director</h4>
+      <h3 class="t-head t-head--s2 c-user-box__name u-text-bold u-text-transform-normal">Johny Bravo</h3>
+      <h4 class="t-head t-head--s3 c-user-box__title u-text-light u-text-transform-normal">Creative Director</h4>
     </div>
   </div>
-</div>                          <div style="order:2;" class="l-grid__item l-grid__item-3 u-non-grow l-grid__item-4@t-m l-grid__item-6@m l-grid__item-12@m-s">
+</div>                          <div style="order:2;" class="l-grid__item l-grid__item-3 u-non-grow l-grid__item-6@m ">
   <div class="c-user-box js-box" data-box-tooltip-trigger="10">
     <div class="c-user-box__img-wrap">
       <img class="c-user-box__img" style="background-image:url(./static/img/user-photo-2.jpg);">
     </div>
     
     <div class="c-user-box__content">
-      <h3 class="t-head t-head--s2 c-user-box__name u-text-bold">Johny Bravo 2</h3>
-      <h4 class="t-head t-head--s3 c-user-box__title u-text-light">Creative Director</h4>
+      <h3 class="t-head t-head--s2 c-user-box__name u-text-bold u-text-transform-normal">Johny Bravo 2</h3>
+      <h4 class="t-head t-head--s3 c-user-box__title u-text-light u-text-transform-normal">Creative Director</h4>
     </div>
   </div>
-</div>                          <div style="order:3;" class="l-grid__item l-grid__item-3 u-non-grow l-grid__item-4@t-m l-grid__item-6@m l-grid__item-12@m-s">
+</div>                          <div style="order:3;" class="l-grid__item l-grid__item-3 u-non-grow l-grid__item-6@m ">
   <div class="c-user-box js-box" data-box-tooltip-trigger="11">
     <div class="c-user-box__img-wrap">
       <img class="c-user-box__img" style="background-image:url(./static/img/user-photo-3.jpg);">
     </div>
     
     <div class="c-user-box__content">
-      <h3 class="t-head t-head--s2 c-user-box__name u-text-bold">Johny Bravo 3</h3>
-      <h4 class="t-head t-head--s3 c-user-box__title u-text-light">Creative Director</h4>
+      <h3 class="t-head t-head--s2 c-user-box__name u-text-bold u-text-transform-normal">Johny Bravo 3</h3>
+      <h4 class="t-head t-head--s3 c-user-box__title u-text-light u-text-transform-normal">Creative Director</h4>
     </div>
   </div>
-</div>                          <div style="order:4;" class="l-grid__item l-grid__item-3 u-non-grow l-grid__item-4@t-m l-grid__item-6@m l-grid__item-12@m-s">
+</div>                          <div style="order:4;" class="l-grid__item l-grid__item-3 u-non-grow l-grid__item-6@m ">
   <div class="c-user-box js-box" data-box-tooltip-trigger="12">
     <div class="c-user-box__img-wrap">
       <img class="c-user-box__img" style="background-image:url(./static/img/user-photo-4.jpg);">
     </div>
     
     <div class="c-user-box__content">
-      <h3 class="t-head t-head--s2 c-user-box__name u-text-bold">Johny Bravo 4</h3>
-      <h4 class="t-head t-head--s3 c-user-box__title u-text-light">Creative Director</h4>
+      <h3 class="t-head t-head--s2 c-user-box__name u-text-bold u-text-transform-normal">Johny Bravo 4</h3>
+      <h4 class="t-head t-head--s3 c-user-box__title u-text-light u-text-transform-normal">Creative Director</h4>
     </div>
   </div>
 </div>                      </div>
@@ -969,19 +954,21 @@
   </div>
 </section>            <section class="l-sec l-sec--default l-sec--bg-white l-sec--t-gray">
   <div class="l-inner">
-    <div class="l-sec__text">
-      <h2 class="t-head t-head--s1 l-sec__main-head u-paint-blue-dark-1">We have skills</h2>
+    <div class="l-sec__text l-sec__row">
+      <div class="l-sec__row--small">
+        <h2 class="t-head t-head--s1 l-sec__main-head u-paint-blue-dark-1">We have skills</h2>
+      </div>
 
-      <div class="t-content">
+      <div class="t-content t-content--primary">
         <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidun.</p>
       </div>
     </div>
 
-    <div class="l-grid u-space-h-2 u-space-v-2">
-      <div class="l-grid__item l-grid__item-6">
+    <div class="l-grid u-space-h-2 u-space-v-6">
+      <div class="l-grid__item l-grid__item-6 l-grid__item-12@t-m">
         <div class="l-block">
           <h3 class="t-head t-head--s2 u-paint-blue-dark-1 l-sec__sub-head">Our Company</h3>
-          <div class="t-content l-sec__row--small">
+          <div class="t-content t-content--primary l-sec__row--small">
             <p>Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet 
                 et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accum
                 san tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, 
@@ -996,19 +983,19 @@
         </div>
       </div>
 
-      <div class="l-grid__item l-grid__item-6">
+      <div class="l-grid__item l-grid__item-6 l-grid__item-12@t-m">
         <div class="l-block">
           <h3 class="t-head t-head--s2 u-paint-blue-dark-1 l-sec__sub-head">Our Skills</h3>
           <div class="l-grid u-space-v-1">
                           <div class="l-grid__item l-grid__item-12">
                 <div class="c-accord js-accord-group-1">
   <div class="c-accord__title js-accord-trigger">
-    <div class="t-content">
+    <div class="t-content t-content--primary">
       <p>Html&amp;Css</p>
     </div>
   </div>
   <div class="c-accord__content js-accord-content">
-    <div class="t-content">
+    <div class="t-content t-content--primary">
       <p>Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accum san tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor situr arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
     </div>
   </div>
@@ -1016,12 +1003,12 @@
                           <div class="l-grid__item l-grid__item-12">
                 <div class="c-accord js-accord-group-1">
   <div class="c-accord__title js-accord-trigger">
-    <div class="t-content">
+    <div class="t-content t-content--primary">
       <p>Javascript</p>
     </div>
   </div>
   <div class="c-accord__content js-accord-content">
-    <div class="t-content">
+    <div class="t-content t-content--primary">
       <p>Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accum san tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor situr arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
     </div>
   </div>
@@ -1029,12 +1016,12 @@
                           <div class="l-grid__item l-grid__item-12">
                 <div class="c-accord js-accord-group-1">
   <div class="c-accord__title js-accord-trigger">
-    <div class="t-content">
+    <div class="t-content t-content--primary">
       <p>Graphic Design</p>
     </div>
   </div>
   <div class="c-accord__content js-accord-content">
-    <div class="t-content">
+    <div class="t-content t-content--primary">
       <p>Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accum san tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor situr arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
     </div>
   </div>
@@ -1042,12 +1029,12 @@
                           <div class="l-grid__item l-grid__item-12">
                 <div class="c-accord js-accord-group-1">
   <div class="c-accord__title js-accord-trigger">
-    <div class="t-content">
+    <div class="t-content t-content--primary">
       <p>Photography</p>
     </div>
   </div>
   <div class="c-accord__content js-accord-content">
-    <div class="t-content">
+    <div class="t-content t-content--primary">
       <p>Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accum san tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor situr arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
     </div>
   </div>
@@ -1059,8 +1046,8 @@
   </div>
 </section>            <div class="l-sec l-sec--default l-sec--bg-blue l-sec--t-white">
   <div class="l-inner">
-    <div class="l-grid u-space-v-2 u-space-h-2">
-              <div class="l-grid__item l-grid__item-3 u-justify-content-center">
+    <div class="l-grid u-space-v-4 u-space-h-2">
+              <div class="l-grid__item l-grid__item-3 l-grid__item-6@m-s u-justify-content-center">
           <div class="c-count">
   <div class="c-count__ico">
     <img src="./static/img/ico-user-2.png" alt="Customers">
@@ -1071,7 +1058,7 @@
     <div class="c-count__desc">Customers</div>
   </div>
 </div>        </div>
-              <div class="l-grid__item l-grid__item-3 u-justify-content-center">
+              <div class="l-grid__item l-grid__item-3 l-grid__item-6@m-s u-justify-content-center">
           <div class="c-count">
   <div class="c-count__ico">
     <img src="./static/img/ico-love.png" alt="Awards">
@@ -1082,7 +1069,7 @@
     <div class="c-count__desc">Awards</div>
   </div>
 </div>        </div>
-              <div class="l-grid__item l-grid__item-3 u-justify-content-center">
+              <div class="l-grid__item l-grid__item-3 l-grid__item-6@m-s u-justify-content-center">
           <div class="c-count">
   <div class="c-count__ico">
     <img src="./static/img/ico-clock-3.png" alt="Completed Projects">
@@ -1093,7 +1080,7 @@
     <div class="c-count__desc">Completed Projects</div>
   </div>
 </div>        </div>
-              <div class="l-grid__item l-grid__item-3 u-justify-content-center">
+              <div class="l-grid__item l-grid__item-3 l-grid__item-6@m-s u-justify-content-center">
           <div class="c-count">
   <div class="c-count__ico">
     <img src="./static/img/ico-twitter.png" alt="Followers">
@@ -1108,74 +1095,154 @@
   </div>
 </div>            <section class="l-sec l-sec--bg-white l-sec--t-gray l-sec--default" id="blog">
   <div class="l-inner">
-    <div class="l-sec__text">
-      <h2 class="t-head t-head--s1 u-paint-blue-dark-1">Bootstrap Grid ready</h2>
+    <div class="l-sec__text l-sec__row">
+      <div class="l-sec__row--small">
+        <h2 class="t-head t-head--s1 u-paint-blue-dark-1">Bootstrap Grid ready</h2>
 
-      <h3 class="t-head t-head--s2 u-text-light l-sec__sub-head">Our Blog</h3>
+        <h3 class="t-head t-head--s2 u-text-light l-sec__sub-head">Our Blog</h3>
 
-      <span class="c-separator">
-        <span class="c-separator__circle"></span>
-      </span>
+        <span class="c-separator">
+          <span class="c-separator__circle"></span>
+        </span>
+      </div>
 
-      <div class="t-content">
+      <div class="t-content t-content-primary">
         <p>
           Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac inia in, elementum id enim. Vestibulum ac diam sit anet.
         </p>
       </div>
     </div>
 
-    <div class="l-sec__row u-text-center">
+    <div class="l-sec__row u-flex u-wrap u-justify-content-center c-btn-grid">
       <button class="c-btn c-btn--alt is-active js-cat-btn" data-trigger-cat="all2">All</button>
       <button class="c-btn c-btn--alt js-cat-btn" data-trigger-cat="newest">Newest</button>
       <button class="c-btn c-btn--alt js-cat-btn" data-trigger-cat="oldest">Oldest</button>
       <button class="c-btn c-btn--alt js-cat-btn" data-trigger-cat="mostPopular">Most Popular</button>
     </div>
 
-    
+    <div class="g-container">
+              <div class="g-box">
+          <div class="c-post-box c-post-box--img-left">
+    <div class="c-post-box__img-wrap">
+    <img class="o-image o-image--fit c-post-box__img" src="./static/img/company1.jpg" alt="Great party we have there">
+  </div>
+  
+  <div class="c-post-box__content">
+    <h3 class="t-head t-head--s4 u-text-transform-normal c-post-box__title">Great party we have there</h3>
+    <div class="c-post-box__author">Published by: <span>John Doe</span></div>
+    <div class="t-content t-content--primary c-post-box__text">
+          <p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>
+    </div>
+  </div>
+</div>        </div>
+              <div class="g-box">
+          <div class="c-post-box c-post-box--img-left">
+    <div class="c-post-box__img-wrap">
+    <img class="o-image o-image--fit c-post-box__img" src="./static/img/company2.jpg" alt="Great party we have there">
+  </div>
+  
+  <div class="c-post-box__content">
+    <h3 class="t-head t-head--s4 u-text-transform-normal c-post-box__title">Great party we have there</h3>
+    <div class="c-post-box__author">Published by: <span>John Doe</span></div>
+    <div class="t-content t-content--primary c-post-box__text">
+          <p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>
+    </div>
+  </div>
+</div>        </div>
+              <div class="g-box">
+          <div class="c-post-box c-post-box--img-none">
+  
+  <div class="c-post-box__content">
+    <h3 class="t-head t-head--s4 u-text-transform-normal c-post-box__title">Great day</h3>
+    <div class="c-post-box__author">Published by: <span>John Doe</span></div>
+    <div class="t-content t-content--primary c-post-box__text">
+          <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsantincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibu lum ac diam sit anet.</p><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet. </p>
+    </div>
+  </div>
+</div>        </div>
+              <div class="g-box">
+          <div class="c-post-box c-post-box--img-top">
+    <div class="c-post-box__img-wrap">
+    <img class="o-image o-image--fit c-post-box__img" src="./static/img/company4.jpg" alt="Great party we have there">
+  </div>
+  
+  <div class="c-post-box__content">
+    <h3 class="t-head t-head--s4 u-text-transform-normal c-post-box__title">Great party we have there</h3>
+    <div class="c-post-box__author">Published by: <span>John Doe</span></div>
+    <div class="t-content t-content--primary c-post-box__text">
+          <p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>
+    </div>
+  </div>
+</div>        </div>
+              <div class="g-box">
+          <div class="c-post-box c-post-box--img-none">
+  
+  <div class="c-post-box__content">
+    <h3 class="t-head t-head--s4 u-text-transform-normal c-post-box__title">Great party we have there</h3>
+    <div class="c-post-box__author">Published by: <span>John Doe</span></div>
+    <div class="t-content t-content--primary c-post-box__text">
+          <p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>
+    </div>
+  </div>
+</div>        </div>
+              <div class="g-box">
+          <div class="c-post-box c-post-box--img-none">
+  
+  <div class="c-post-box__content">
+    <h3 class="t-head t-head--s4 u-text-transform-normal c-post-box__title">Great party we have there</h3>
+    <div class="c-post-box__author">Published by: <span>John Doe</span></div>
+    <div class="t-content t-content--primary c-post-box__text">
+          <p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>
+    </div>
+  </div>
+</div>        </div>
+          </div>
 
   </div>
 </section>            <section class="l-sec l-sec--bg-blue l-sec--t-white l-sec--default" id="clients">
   <div class="l-inner">
-    <div class="l-sec__text">
-      <h2 class="t-head t-head--s1 l-sec__main-head">Our Customers</h2>
+    <div class="l-sec__text l-sec__row">
+      <div class="l-sec__row--small">
+        <h2 class="t-head t-head--s1 l-sec__main-head">Our Customers</h2>
+      </div>
 
-      <div class="t-content">
+      <div class="t-content t-content--primary">
         <p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidun.        </p>
       </div>
     </div>
 
-    <div class="l-grid">
-      <div class="l-grid__item l-grid__item-2 u-justify-content-center">
+    <div class="l-grid u-space-v-12 u-space-h-4">
+      <div class="l-grid__item l-grid__item-2 l-grid__item-4@t-m l-grid__item-6@m-s u-justify-content-center">
         <div class="o-image-wrapper">
           <img src="./static/img/logo-1.png" alt="Half studio logo" class="o-image o-image--fluid">
         </div>
       </div>
 
-      <div class="l-grid__item l-grid__item-2 u-justify-content-center">
+      <div class="l-grid__item l-grid__item-2 l-grid__item-4@t-m l-grid__item-6@m-s u-justify-content-center">
         <div class="o-image-wrapper">
           <img src="./static/img/logo-2.png" alt="Jupiter logo" class="o-image o-image--fluid">
         </div>
       </div>
 
-      <div class="l-grid__item l-grid__item-2 u-justify-content-center">
+      <div class="l-grid__item l-grid__item-2 l-grid__item-4@t-m l-grid__item-6@m-s u-justify-content-center">
         <div class="o-image-wrapper">
           <img src="./static/img/logo-3.png" alt="Rocket logo" class="o-image o-image--fluid">
         </div>
       </div>
 
-      <div class="l-grid__item l-grid__item-2 u-justify-content-center">
+      <div class="l-grid__item l-grid__item-2 l-grid__item-4@t-m l-grid__item-6@m-s u-justify-content-center">
         <div class="o-image-wrapper">
           <img src="./static/img/logo-4.png" alt="Monopic logo" class="o-image o-image--fluid">
         </div>
       </div>
 
-      <div class="l-grid__item l-grid__item-2 u-justify-content-center">
+      <div class="l-grid__item l-grid__item-2 l-grid__item-4@t-m l-grid__item-6@m-s u-justify-content-center">
         <div class="o-image-wrapper">
           <img src="./static/img/logo-5.png" alt="Mars logo" class="o-image o-image--fluid">
         </div>
       </div>
 
-      <div class="l-grid__item l-grid__item-2 u-justify-content-center">
+      <div class="l-grid__item l-grid__item-2 l-grid__item-4@t-m l-grid__item-6@m-s u-justify-content-center">
         <div class="o-image-wrapper">
           <img src="./static/img/logo-6.png" alt="Jupiter logo" class="o-image o-image--fluid">
         </div>
@@ -1184,39 +1251,49 @@
   </div>
 </section>            <section class="l-sec l-sec--bg-white l-sec--t-gray l-sec--default">
   <div class="l-inner">
-    <div class="l-sec__text">
+    <div class="l-sec__text l-sec__row">
       <h2 class="t-head t-head--s1 u-paint-blue-dark-1">Testimonials</h2>
     </div>
     
     <ul class="js-testimony-slider">
           <li>
-        <div class="l-sec__text">
-  <div class="t-content u-text-italic u-text-center"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p></div>
-  <div class="c-separator c-separator--big-gap"><div class="c-separator__circle"></div></div>
+        <div class="l-sec__text l-sec__row--small">
+  <div class="l-sec__row--small-2">
+    <div class="t-content t-content--primary u-text-italic u-text-center"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p></div>
+    <div class="c-separator"><div class="c-separator__circle"></div></div>
+  </div>
   <div class="t-content t-content--medium u-text-center">John Doe</div>
 </div>      </li>
           <li>
-        <div class="l-sec__text">
-  <div class="t-content u-text-italic u-text-center"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p></div>
-  <div class="c-separator c-separator--big-gap"><div class="c-separator__circle"></div></div>
+        <div class="l-sec__text l-sec__row--small">
+  <div class="l-sec__row--small-2">
+    <div class="t-content t-content--primary u-text-italic u-text-center"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p></div>
+    <div class="c-separator"><div class="c-separator__circle"></div></div>
+  </div>
   <div class="t-content t-content--medium u-text-center">Some Doe</div>
 </div>      </li>
           <li>
-        <div class="l-sec__text">
-  <div class="t-content u-text-italic u-text-center"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p></div>
-  <div class="c-separator c-separator--big-gap"><div class="c-separator__circle"></div></div>
+        <div class="l-sec__text l-sec__row--small">
+  <div class="l-sec__row--small-2">
+    <div class="t-content t-content--primary u-text-italic u-text-center"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p></div>
+    <div class="c-separator"><div class="c-separator__circle"></div></div>
+  </div>
   <div class="t-content t-content--medium u-text-center">Bravi Doe</div>
 </div>      </li>
           <li>
-        <div class="l-sec__text">
-  <div class="t-content u-text-italic u-text-center"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p></div>
-  <div class="c-separator c-separator--big-gap"><div class="c-separator__circle"></div></div>
+        <div class="l-sec__text l-sec__row--small">
+  <div class="l-sec__row--small-2">
+    <div class="t-content t-content--primary u-text-italic u-text-center"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p></div>
+    <div class="c-separator"><div class="c-separator__circle"></div></div>
+  </div>
   <div class="t-content t-content--medium u-text-center">Doe John</div>
 </div>      </li>
           <li>
-        <div class="l-sec__text">
-  <div class="t-content u-text-italic u-text-center"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p></div>
-  <div class="c-separator c-separator--big-gap"><div class="c-separator__circle"></div></div>
+        <div class="l-sec__text l-sec__row--small">
+  <div class="l-sec__row--small-2">
+    <div class="t-content t-content--primary u-text-italic u-text-center"><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p></div>
+    <div class="c-separator"><div class="c-separator__circle"></div></div>
+  </div>
   <div class="t-content t-content--medium u-text-center">Johny Doe</div>
 </div>      </li>
         </ul>
@@ -1224,16 +1301,18 @@
   </div>
 </section>            <section class="l-sec l-sec--bg-blue l-sec--t-white l-sec--default" id="contact">
   <div class="l-inner">
-    <div class="l-sec__text">
-      <h2 class="t-head t-head--s1 l-sec__main-head">FEEL FREE TO ASK US ANYTHING</h2>
+    <div class="l-sec__text l-sec__row">
+      <div class="l-sec__row--small">
+        <h2 class="t-head t-head--s1 l-sec__main-head">FEEL FREE TO ASK US ANYTHING</h2>
 
-      <h3 class="t-head t-head--s2 u-text-light l-sec__sub-head">Our Portfolio</h3>
+        <h3 class="t-head t-head--s2 u-text-light l-sec__sub-head">Our Portfolio</h3>
 
-      <span class="c-separator c-separator--white">
-        <span class="c-separator__circle"></span>
-      </span>
+        <span class="c-separator c-separator--white">
+          <span class="c-separator__circle"></span>
+        </span>
+      </div>
 
-      <div class="t-content">
+      <div class="t-content t-content--primary">
         <p>
           Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tinci dunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lac inia in, elementum id enim. Vestibulum ac diam sit anet.
         </p>
@@ -1241,8 +1320,8 @@
     </div>
 
     <div class="l-sec__row">
-      <div class="l-grid">
-        <div class="l-grid__item l-grid__item-4 u-justify-content-center">
+      <div class="l-grid u-space-v-2 u-space-h-2">
+        <div class="l-grid__item l-grid__item-4 l-grid__item-6@m-s u-justify-content-center">
           <div class="c-ico-box">
             <div class="c-ico-box__ico-wrap">
               <div class="o-ico o-ico--l c-ico-box__ico">
@@ -1252,14 +1331,14 @@
 
             <div class="c-ico-box__text">
               <h4 class="t-head t-head--s2 c-ico-box__title">Adresse</h4>
-              <div class="t-content t-content--medium">
+              <div class="t-content t-content--primary">
                 <p>Awesome Street 234,NY</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="l-grid__item l-grid__item-4 u-justify-content-center">
+        <div class="l-grid__item l-grid__item-4 l-grid__item-6@m-s u-justify-content-center">
           <div class="c-ico-box">
             <div class="c-ico-box__ico-wrap">
               <div class="o-ico o-ico--l c-ico-box__ico">
@@ -1269,14 +1348,14 @@
 
             <div class="c-ico-box__text">
               <h4 class="t-head t-head--s2 c-ico-box__title">Mail</h4>
-              <div class="t-content t-content--medium">
+              <div class="t-content t-content--primary">
                 <p><a href="mailto:articamail@mail.com">articamail@mail.com</a></p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="l-grid__item l-grid__item-4 u-justify-content-center">
+        <div class="l-grid__item l-grid__item-4 l-grid__item-6@m-s u-justify-content-center">
           <div class="c-ico-box">
             <div class="c-ico-box__ico-wrap">
               <div class="o-ico o-ico--l c-ico-box__ico">
@@ -1286,7 +1365,7 @@
 
             <div class="c-ico-box__text">
               <h4 class="t-head t-head--s2 c-ico-box__title">Phone</h4>
-              <div class="t-content t-content--medium">
+              <div class="t-content t-content--primary">
                 <p><a href="mailto:(000)123-456-789">(000)123-456-789</a></p>
               </div>
             </div>
@@ -1296,16 +1375,16 @@
     </div>
 
     <form action="#" class="f-form js-contact-form">
-      <div class="l-grid u-space-h-2">
-        <div class="l-grid__item l-grid__item-4 f-field">
+      <div class="l-grid u-space-h-2 u-space-v-4">
+        <div class="l-grid__item l-grid__item-4 l-grid__item-12@m f-field">
             <input type="text" data-validate-field="name" name="name" class="f-control f-control--default f-control--white f-control--ph-1" placeholder="Enter name">
         </div>
 
-        <div class="l-grid__item l-grid__item-4 f-field">
+        <div class="l-grid__item l-grid__item-4 l-grid__item-12@m f-field">
           <input type="email" data-validate-field="email" name="email" class="f-control f-control--default f-control--white f-control--ph-1" placeholder="Enter mail">
         </div>
 
-        <div class="l-grid__item l-grid__item-4 f-field">
+        <div class="l-grid__item l-grid__item-4 l-grid__item-12@m f-field">
           <input type="text" data-validate-field="subject" name="subject" class="f-control f-control--default f-control--white f-control--ph-1" placeholder="Enter subject">
         </div>
 
@@ -1328,7 +1407,7 @@
             <div class="c-logo c-logo--w">Artica</div>
         </div>
         <div class="u-flex u-justify-content-center">
-            <div class="t-content t-content-xs">
+            <div class="t-content t-content--xs">
                 <p>&copy; 2013. All rights reserved</p>
             </div>
         </div>

@@ -5,6 +5,8 @@
 .l-sec__bg {
   @extend %helper-absolute-center;
 
+  background-size: cover;
+
   &::after {
     @extend %helper-absolute-center;
 
@@ -26,16 +28,49 @@
 
 .l-sec__row {
   margin: 0 auto 6rem auto;
+
+  @include media('<=t-m') {
+    margin: 0 auto 4rem auto;
+  }
+}
+
+.l-sec__row--big {
+  margin: 0 auto 7rem auto;
+
+  @include media('<=t-m') {
+    margin: 0 auto 4.5rem auto;
+  }
+}
+
+.l-sec__row--big-2 {
+  margin: 0 auto 9rem auto;
+
+  @include media('<=t-m') {
+    margin: 0 auto 5.5rem auto;
+  }
+  @include media('<=m-s') {
+    margin: 0 auto 3.5rem auto;
+  }
 }
 
 .l-sec__row--small {
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 3rem auto;
+
+  @include media('<=t-m') {
+    margin: 0 auto 2rem auto;
+  }
+}
+
+.l-sec__row--small-2 {
+  margin: 0 auto 3.5rem auto;
+
+  @include media('<=t-m') {
+    margin: 0 auto 2.25rem auto;
+  }
 }
 
 .l-sec__text {
-    margin: 0 auto 6rem auto;
-    max-width: 72rem;
-    padding: 0 1rem;
+    max-width: 75rem;
 
     text-align: center;
 }
@@ -45,7 +80,7 @@
 }
 
 .l-sec__sub-head {
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 2rem;
 }
 
 .l-sec--t-white {
@@ -66,8 +101,46 @@
 
 .l-sec--default {
     padding: 6rem 0;
+
+    @include media('<=t-m') {
+      padding: 3.5rem 0;
+    }
 }
 
 .l-sec--small {
   padding: 0 0 4rem 0;
+
+  @include media('<=t-m') {
+    padding:0 0 2.5rem 0;
+  }
+}
+
+.l-sec__ico-after::after {
+  content: "";
+
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: inline-block;
+  
+  margin: 2rem auto 0 auto;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  padding: 2rem;
+
+  background-image: url('../img/ico-arrow.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: $color_blue_dark_2;
+
+  @include media('<=m'){
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+
+    background-size: 1rem;
+  }
+
 }

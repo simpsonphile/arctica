@@ -54,10 +54,20 @@
     background-color: $color_blue_dark_2;
     background-size: 2rem 2rem;
     background-position: center;
+
+    @include media('<=t-m'){
+      width: 3.5rem;
+      height: 3.5rem;
+    }
   }
 
   &:hover .c-user-box__img{
     transform: scale(1.2);
+  }
+
+  @include media('<=t-m'){
+    width: 12.5rem;
+    height: 12.5rem;
   }
 }
 

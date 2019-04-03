@@ -1,4 +1,3 @@
-
 /* Inner
    ========================================================================== */
 
@@ -20,6 +19,14 @@
     overflow: hidden;
 
     padding-top: $header-height;
+
+    @include media('<=t') {
+        padding-top: $header_height_tablet;
+    }
+
+    @include media('<=m'){
+        padding-top: $header_height_mobile;
+    }
 }
 
 .l-block {

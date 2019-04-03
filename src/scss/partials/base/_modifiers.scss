@@ -1,3 +1,8 @@
+.u-block-scroll {
+    max-height: 100%;
+    overflow: hidden;
+}
+
 
 /* Text aligned
    ========================================================================== */
@@ -45,6 +50,10 @@
 
 .u-text-italic {
     font-style: italic;
+}
+
+.u-text-transform-normal {
+    text-transform: unset !important;
 }
 
 /* Flexbox utilises
