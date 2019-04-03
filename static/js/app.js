@@ -7543,7 +7543,7 @@ var lazyload_default = /*#__PURE__*/__webpack_require__.n(lazyload_lazyload);
 
 
 const lazyImages = document.querySelectorAll('.js-lazyload');
-lazyload(lazyImages);
+lazyload_default()(lazyImages);
 // CONCATENATED MODULE: ./app.js
 
 
