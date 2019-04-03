@@ -1,7 +1,7 @@
 <div class="c-post-box c-post-box--img-{{post.imgPos}}">
   {% if post.imgPos != 'none' %}
   <div class="c-post-box__img-wrap">
-    <img class="o-image o-image--fit c-post-box__img" src="{{post.imgUrl}}" alt="{{post.title}}">
+    <img class="o-image o-image--fit c-post-box__img js-lazyload" data-src="{{post.imgUrl}}" alt="{{post.title}}">
   </div>
   {% endif %}
 
