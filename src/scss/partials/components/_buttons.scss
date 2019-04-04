@@ -117,11 +117,12 @@
 
 .c-btn--alt {
     height: 3rem;
-    padding: 0 1.6rem;
+    padding: 0 2rem;
 
     background: $color_blue_light;
 
     font-size: 2rem;
+    text-transform: uppercase;
     color: $color_white;
 
     &.is-active {
@@ -183,6 +184,6 @@
 }
 
 .c-btn-grid .c-btn {
-    margin: .5rem;
+    margin: 1rem;
 }
 

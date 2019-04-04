@@ -7,13 +7,11 @@
 
   display: flex;
 
-  height: calc(100vh - 5rem);
-  max-height: 100rem;
+  min-height: calc(80rem - 10rem);
   max-width: 100%;
   padding: 0;
 
   @include media('<=t-m') {
-    height: calc(100vh - 20rem);
     max-height: 60rem;
   }
 
