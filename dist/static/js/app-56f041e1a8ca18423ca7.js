@@ -4007,7 +4007,7 @@ class TooltipGroup {
   }
 
   getPositionShift() {
-    let shift = undefined;
+    let shift;
     this.gridBreakpoints.forEach(breakpoint => {
       if (!shift) {
         if (breakpoint.mode === '>') {
@@ -4026,10 +4026,10 @@ class TooltipGroup {
   }
 
   triggerTooltip(id) {
-    let triggeredTooltip = undefined;
+    let triggeredTooltip;
 
     this.tooltips.forEach(tooltip => {
-      if (tooltip.dataset.boxTooltip == id) {
+      if (parseInt(tooltip.dataset.boxTooltip) === parseInt(id)) {
         triggeredTooltip = tooltip;
       }
     });
@@ -4041,9 +4041,9 @@ class TooltipGroup {
   positionTooltip(box) {
     const id = box.dataset.boxTooltipTrigger;
 
-    let positionedTooltip = undefined;
+    let positionedTooltip;
     this.tooltips.forEach(tooltip => {
-      if (tooltip.dataset.boxTooltip == id) {
+      if (parseInt(tooltip.dataset.boxTooltip) === parseInt(id)) {
         positionedTooltip = tooltip;
       }
     });
@@ -4055,7 +4055,7 @@ class TooltipGroup {
   }
 
   getActiveTooltipID() {
-    let activeTooltip = undefined;
+    let activeTooltip;
     this.tooltips.forEach(tooltip => {
       if (tooltip.classList.contains('is-active')) {
         activeTooltip = tooltip;
@@ -4099,19 +4099,19 @@ const tooltipsModern = document.querySelectorAll('.js-tooltip-modern');
 const gridBreakpointsModern = [{
   breakpoint: utils["BREAKPOINTS"].tabletMiddle,
   shift: 4,
-  mode: ">"
+  mode: '>'
 }, {
   breakpoint: utils["BREAKPOINTS"].mobile,
   shift: 3,
-  mode: ">"
+  mode: '>'
 }, {
   breakpoint: utils["BREAKPOINTS"].mobileSmall,
   shift: 2,
-  mode: ">"
+  mode: '>'
 }, {
   breakpoint: utils["BREAKPOINTS"].mobileSmall,
   shift: 1,
-  mode: "<="
+  mode: '<='
 }];
 
 const tooltipGroupModern = new TooltipGroup(triggersModern, tooltipsModern, gridBreakpointsModern);
@@ -4122,11 +4122,11 @@ const tooltipsUser = document.querySelectorAll('.js-tooltip-user');
 const gridBreakpointsUser = [{
   breakpoint: utils["BREAKPOINTS"].mobile,
   shift: 4,
-  mode: ">"
+  mode: '>'
 }, {
   breakpoint: utils["BREAKPOINTS"].mobile,
   shift: 2,
-  mode: "<="
+  mode: '<='
 }];
 
 const tooltipGroupUser = new TooltipGroup(triggersUser, tooltipsUser, gridBreakpointsUser);
@@ -4143,14 +4143,12 @@ class FilterGroup {
   }
 
   hideCatBoxes() {
-    // rename to hideCatBoxes
     this.boxGroup.forEach(box => {
       box.classList.add('u-hidden');
     });
   }
 
   showCatBoxes(cat) {
-    //  cat do konstruktora i na this
     this.hideCatBoxes();
 
     if (cat === 'all') {
