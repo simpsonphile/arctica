@@ -1,3 +1,6 @@
+## Artica
+
+This project is made from PSD to HTML
 
 > **LibSass** starter for front-end projects by Pagepro.
 
