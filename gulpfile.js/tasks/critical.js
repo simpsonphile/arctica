@@ -16,7 +16,7 @@ var criticalTask = function (cb) {
       height: config.tasks.critical.height,
       width: config.tasks.critical.width,
       minify: true,
-      extract: false,
+      extract: true,
       ignore: ['font-face']
     }))
     .pipe(gulp.dest(paths.dest))

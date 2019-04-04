@@ -16,6 +16,10 @@
 
     background: rgba($color_gray, .6);
   }
+
+  @include media('<=t-m') {
+    display: none;
+  }
 }
 
 .c-post-box__content {
@@ -28,6 +32,10 @@
   content: "";
 
   position: absolute;
+
+  @include media('<=t-m'){
+    content: unset;
+  }
 }
 
 .c-post-box__title {

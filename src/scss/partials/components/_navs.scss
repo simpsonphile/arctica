@@ -67,7 +67,11 @@
 .c-nav__el-link {
     font-size: 2rem;
     text-decoration: none;
-    color: white;
+    color: $color_white;
+
+    &:hover {
+        color: darken($color_white, 15);
+    }
 
     @include media('<=m'){
         font-size: 1.6rem;

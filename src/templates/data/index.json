@@ -98,9 +98,10 @@
                 "tool": "<p>AI, PS Design</p>"
             }
         ],
+
         "users": [
             {
-                "boxID": 9,
+                "boxID": 1,
                 "name": "Johny Bravo",
                 "title": "Creative Director",
                 "imgUrl": "./static/img/user-photo-1.jpg",
@@ -109,7 +110,7 @@
                 "location": "<p>From NY</p>"
             },
             {
-                "boxID": 10,
+                "boxID": 2,
                 "name": "Johny Bravo 2",
                 "title": "Creative Director",
                 "imgUrl": "./static/img/user-photo-2.jpg",
@@ -118,7 +119,7 @@
                 "location": "<p>From NY</p>"
             },
             {
-                "boxID": 11,
+                "boxID": 3,
                 "name": "Johny Bravo 3",
                 "title": "Creative Director",
                 "imgUrl": "./static/img/user-photo-3.jpg",
@@ -127,7 +128,7 @@
                 "location": "<p>From NY</p>"
             },
             {
-                "boxID": 12,
+                "boxID": 4,
                 "name": "Johny Bravo 4",
                 "title": "Creative Director",
                 "imgUrl": "./static/img/user-photo-4.jpg",
@@ -136,6 +137,7 @@
                 "location": "<p>From NY</p>"
             }
         ],
+
         "accordSkills": [
             {
                 "groupClass": "js-accord-group-1",
@@ -158,6 +160,7 @@
                 "content": "<p>Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accum san tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor situr arcu erat, accumsan id imperdiet et, porttitor at sem.</p>"
             }
         ],
+
         "counts": [
             {
                 "icoUrl": "./static/img/ico-user-2.png",
@@ -180,7 +183,8 @@
                 "txt": "Followers"
             }
         ],
-        "TestiSlides": [
+
+        "testiSlides": [
             {
                 "txt":  "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nisi.</p>",
                 "quoter": "John Doe"
@@ -202,8 +206,10 @@
                 "quoter": "Johny Doe"
             }
         ],
+
         "posts": [
             {
+                "cat": "newest",
                 "imgPos": "left",
                 "imgUrl": "./static/img/company1.jpg",
                 "title": "Great party we have there",
@@ -211,6 +217,7 @@
                 "text": "<p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>"
             },
             {
+                "cat": "newest",
                 "imgPos": "left",
                 "imgUrl": "./static/img/company2.jpg",
                 "title": "Great party we have there",
@@ -218,13 +225,14 @@
                 "text": "<p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>"
             },
             {
+                "cat": "newest",
                 "imgPos": "none",
-                
                 "title": "Great day",
                 "publisher": "John Doe",
                 "text": "<p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsantincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibu lum ac diam sit anet.</p><p>Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet. </p>"
             },
             {
+                "cat": "oldest",
                 "imgPos": "top",
                 "imgUrl": "./static/img/company4.jpg",
                 "title": "Great party we have there",
@@ -232,15 +240,15 @@
                 "text": "<p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>"
             },
             {
+                "cat": "oldest",
                 "imgPos": "none",
-                
                 "title": "Great party we have there",
                 "publisher": "John Doe",
                 "text": "<p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>"
             },
             {
+                "cat": "mostPopular",
                 "imgPos": "none",
-                
                 "title": "Great party we have there",
                 "publisher": "John Doe",
                 "text": "<p>Donec sollicitudin molestie male suada. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor  accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elemena porttitor accumsan tincidunt. Quisque velit nid enim. Vestibulum ac diam sit anet.</p>"

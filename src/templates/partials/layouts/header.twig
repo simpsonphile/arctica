@@ -17,47 +17,6 @@
     <span class="l-header__cloack js-cloack"></span>
 
     <div class="l-header__nav">
-        <div class="c-nav js-main-nav">
-            <div class="c-nav__top">
-                <div class="c-nav__logo">
-                    <a href="/" class="c-logo u-paint-white-1">Artica</a>
-                </div>
-
-                <button class="c-btn c-nav__close js-hide-nav">
-                    <span>&times;</span>
-                </button>
-            </div>
-
-            <ul class="c-nav__menu">
-                <li class="c-nav__el"><a href="#home" class="c-nav__el-link js-scroll-to js-menu-el" data-target="#home">Home</a></li>
-                <li class="c-nav__el"><a href="#services" class="c-nav__el-link js-scroll-to js-menu-el" data-target="#services">Services</a></li>
-                <li class="c-nav__el"><a href="#portfolio" class="c-nav__el-link js-scroll-to js-menu-el" data-target="#portfolio">Portfolio</a></li>
-                <li class="c-nav__el"><a href="#about" class="c-nav__el-link js-scroll-to js-menu-el" data-target="#about">About</a></li>
-                <li class="c-nav__el"><a href="#blog" class="c-nav__el-link js-scroll-to js-menu-el" data-target="#blog">Blog</a></li>
-                <li class="c-nav__el"><a href="#clients" class="c-nav__el-link js-scroll-to js-menu-el" data-target="#clients">Clients</a></li>
-                <li class="c-nav__el"><a href="#contact" class="c-nav__el-link js-scroll-to js-menu-el" data-target="#contact">Contact</a></li>
-            </ul>
-
-            <div class="c-nav__socials">
-                <a href="#" class="o-ico o-ico--social-sqr c-nav__social">
-                    <img data-src="./static/img/ico-fb.png" alt="facebook">
-                </a>
-                <a href="#" class="o-ico o-ico--social-sqr c-nav__social">
-                    <img data-src="./static/img/ico-twitter-2.png" alt="twitter">
-                </a>
-                <a href="#" class="o-ico o-ico--social-sqr c-nav__social">
-                    <img data-src="./static/img/ico-google.png" alt="google plus">
-                </a>
-                <a href="#" class="o-ico o-ico--social-sqr c-nav__social">
-                    <img data-src="./static/img/ico-linkedin.png" alt="linkedin">
-                </a>
-                <a href="#" class="o-ico o-ico--social-sqr c-nav__social">
-                    <img data-src="./static/img/ico-behance.png" alt="behance">
-                </a>
-                <a href="#" class="o-ico o-ico--social-sqr c-nav__social">
-                    <img data-src="./static/img/ico-dribbble.png" alt="dribbble">
-                </a>
-            </div>
-        </div>
+        {% include '../main-nav.twig' %}
     </div>
 </header>

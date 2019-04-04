@@ -4,6 +4,12 @@
   background: $color_blue_light;
 
   color: $color_white;
+
+  transition: all $transition_speed;
+
+  &:hover:not(.is-active) {
+    background: darken($color_blue_light, 10);
+  }
 }
 
 .c-accord__title {

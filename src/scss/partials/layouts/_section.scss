@@ -136,11 +136,11 @@
   background-color: $color_blue_dark_2;
 
   @include media('<=m'){
-    width: 3rem;
-    height: 3rem;
-    padding: 1rem;
+    width: 4rem;
+    height: 4rem;
+    padding: 1.5rem;
 
-    background-size: 1rem;
+    background-size: 1.5rem;
   }
 
 }

@@ -1,15 +1,17 @@
-<div class="c-post-box c-post-box--img-{{post.imgPos}}">
-  {% if post.imgPos != 'none' %}
-  <div class="c-post-box__img-wrap">
-    <img class="o-image o-image--fit c-post-box__img js-lazyload" data-src="{{post.imgUrl}}" alt="{{post.title}}">
-  </div>
-  {% endif %}
+<div class="g-box js-box-group-news" data-box-cat={{post.cat}}>
+  <div class="c-post-box c-post-box--img-{{post.imgPos}}">
+    {% if post.imgPos != 'none' %}
+    <div class="c-post-box__img-wrap">
+      <img class="o-image o-image--fit c-post-box__img js-lazyload" data-src="{{post.imgUrl}}" alt="{{post.title}}">
+    </div>
+    {% endif %}
 
-  <div class="c-post-box__content">
-    <h3 class="t-head t-head--s4 u-text-transform-normal c-post-box__title">{{post.title}}</h3>
-    <div class="c-post-box__author">Published by: <span>{{post.publisher}}</span></div>
-    <div class="t-content t-content--primary c-post-box__text">
-          {{post.text}}
+    <div class="c-post-box__content">
+      <h3 class="t-head t-head--s4 u-text-transform-normal c-post-box__title">{{post.title}}</h3>
+      <div class="c-post-box__author">Published by: <span>{{post.publisher}}</span></div>
+      <div class="t-content t-content--primary c-post-box__text">
+            {{post.text}}
+      </div>
     </div>
   </div>
 </div>

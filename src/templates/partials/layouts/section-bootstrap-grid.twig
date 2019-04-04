@@ -19,17 +19,15 @@
     </div>
 
     <div class="l-sec__row u-flex u-wrap u-justify-content-center c-btn-grid">
-      <button class="c-btn c-btn--alt is-active js-cat-btn" data-trigger-cat="all2">All</button>
-      <button class="c-btn c-btn--alt js-cat-btn" data-trigger-cat="newest">Newest</button>
-      <button class="c-btn c-btn--alt js-cat-btn" data-trigger-cat="oldest">Oldest</button>
-      <button class="c-btn c-btn--alt js-cat-btn" data-trigger-cat="mostPopular">Most Popular</button>
+      <button class="c-btn c-btn--alt is-active js-cat-btn js-btn-group-news" data-trigger-cat="all">All</button>
+      <button class="c-btn c-btn--alt js-cat-btn js-btn-group-news" data-trigger-cat="newest">Newest</button>
+      <button class="c-btn c-btn--alt js-cat-btn js-btn-group-news" data-trigger-cat="oldest">Oldest</button>
+      <button class="c-btn c-btn--alt js-cat-btn js-btn-group-news" data-trigger-cat="mostPopular">Most Popular</button>
     </div>
 
     <div class="g-container">
       {% for post in posts %}
-        <div class="g-box">
-          {% include '../components/post-box.twig' with {'post': post} %}
-        </div>
+        {% include '../components/post-box.twig' with {'post': post} %}
       {% endfor %}
     </div>
 

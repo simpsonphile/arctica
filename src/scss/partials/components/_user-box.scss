@@ -8,13 +8,12 @@
 
 .c-user-box.is-active::after {
   @include arrow('bottom', 2rem, $color_blue_dark_2);
-  @include arrow-position('bottom', 2rem);
+  @include arrow-position('top', 3rem);
 
   content: "";
 
   position: absolute;
   left: 50%;
-  bottom: -2rem;
   
   transform: translateX(-50%);
 }
@@ -81,10 +80,6 @@
   background-size: cover;
 }
 
-.c-user-box__content {
-  
-}
 .c-user-box__name {
   margin: .5rem 0;
 }
-.c-user-box__title {}
