@@ -40,10 +40,26 @@
 
 .c-post-box__title {
   margin-bottom: 3rem;
+
+  @include media('<=t-m'){
+    margin-bottom: 2rem;
+  }
+
+  @include media('<=m-s'){
+    margin-bottom: 1.5rem;
+  }
 }
 
 .c-post-box__author {
   margin-bottom: 3rem;
+
+  @include media('<=t-m'){
+    margin-bottom: 2rem;
+  }
+
+  @include media('<=m-s'){
+    margin-bottom: 1.5rem;
+  }
 }
 
 .c-post-box__text {

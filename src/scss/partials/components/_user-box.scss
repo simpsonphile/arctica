@@ -4,6 +4,8 @@
   margin: 0 auto;
   
   text-align: center;
+
+  cursor: pointer;
 }
 
 .c-user-box.is-active::after {
@@ -21,7 +23,7 @@
 .c-user-box__img-wrap {
   position: relative;
 
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem auto;
   border: 2px solid $color_white;
   border-radius: 50%;
   width: 20rem;
@@ -65,8 +67,15 @@
   }
 
   @include media('<=t-m'){
+    margin-bottom: 1.5rem;
     width: 12.5rem;
     height: 12.5rem;
+  }
+
+  @include media('<=m-s'){
+    margin-bottom: 1rem;
+    width: 9rem;
+    height: 9rem;
   }
 }
 

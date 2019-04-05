@@ -185,5 +185,9 @@
 
 .c-btn-grid .c-btn {
     margin: 1rem;
+
+    @include media('<=t-m'){
+        margin: .5rem;
+    }
 }
 
